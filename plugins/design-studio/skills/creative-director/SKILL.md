@@ -93,6 +93,11 @@ If the user said not to ask questions, choose the direction yourself in step 2 a
 
 ## Output channels
 
+**Confirm the channel before a big build.** For Team-mode jobs (design systems, multi-screen UI, campaigns), if the
+user hasn't said where the work should live, ask one question first: Figma, code, or both. When Figma is connected
+and the job is UI/UX or a design system, default to **Figma first**. Show screenshots, get approval, and only then
+generate code from the approved design. A code-first build the user didn't ask for wastes their budget.
+
 Pick the richest channel available. Never claim to have produced a visual that no tool produced.
 
 | Channel | When | How |
