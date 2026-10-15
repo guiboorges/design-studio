@@ -1,0 +1,29 @@
+{
+  "name": "design-studio",
+  "version": "1.0.0",
+  "description": "A full design team: a creative director, specialist agents, and a research-verified, cited design knowledge base (typography, color, layout, accessibility, media specs, visual styles, design history, cognitive psychology).",
+  "author": {
+    "name": "Guilherme Borges"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ux",
+    "ui",
+    "design-system",
+    "figma",
+    "branding",
+    "typography",
+    "color",
+    "accessibility"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Design Studio",
+        "shortDescription": "A design team with a cited knowledge base",
+        "category": "Design"
+      }
+    }
+  }
+}

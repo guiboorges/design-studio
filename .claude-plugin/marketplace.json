@@ -1,0 +1,14 @@
+{
+  "name": "design-studio",
+  "owner": { "name": "Guilherme Borges" },
+  "description": "A full design team for Claude Code: specialist agents, a research-verified design knowledge base, and workflows from design systems to billboards.",
+  "plugins": [
+    {
+      "name": "design-studio",
+      "source": "./plugins/design-studio",
+      "description": "Specialist design agents (UX, UI, design systems, brand, editorial, print, social, art direction) backed by a cited knowledge base of design history, styles, cognitive psychology, typography, color, layout, accessibility and media specs.",
+      "category": "design",
+      "tags": ["design", "ux", "ui", "design-system", "figma", "branding", "typography"]
+    }
+  ]
+}

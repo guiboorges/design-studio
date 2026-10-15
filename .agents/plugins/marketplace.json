@@ -1,0 +1,12 @@
+{
+  "name": "design-studio",
+  "interface": { "displayName": "Design Studio" },
+  "plugins": [
+    {
+      "name": "design-studio",
+      "source": { "source": "local", "path": "./plugins/design-studio" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Design"
+    }
+  ]
+}

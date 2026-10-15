@@ -1,0 +1,22 @@
+{
+  "name": "design-studio",
+  "version": "1.0.0",
+  "displayName": "Design Studio",
+  "description": "A full design team: specialist agents backed by a research-verified, cited design knowledge base.",
+  "author": {
+    "name": "Guilherme Borges"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ux",
+    "ui",
+    "design-system",
+    "figma",
+    "branding",
+    "typography",
+    "color",
+    "accessibility",
+    "cognitive-bias"
+  ]
+}
