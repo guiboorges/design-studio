@@ -1,0 +1,407 @@
+{
+  "$description": "Clearbook color. primitive = raw values (hidden in Figma). dark/light = semantic roles; Figma collection \"Color\", modes Dark and Light. Glass roles are 8-digit hex (RRGGBBAA). Exported from Figma file wDGfpae7Hy4cNPiS0P8QYB, 2026-10-15.",
+  "primitive": {
+    "neutral": {
+      "0": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#F4F5F7"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E7E8EA"
+      },
+      "150": {
+        "$type": "color",
+        "$value": "#F7F8F9"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#C9CBCE"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#BEC2C8"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#A9AEB5"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#8A8F96"
+      },
+      "525": {
+        "$type": "color",
+        "$value": "#71767D"
+      },
+      "550": {
+        "$type": "color",
+        "$value": "#7A7F86"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#565B63"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#454A52"
+      },
+      "750": {
+        "$type": "color",
+        "$value": "#3B3E43"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#2E3135"
+      },
+      "825": {
+        "$type": "color",
+        "$value": "#2A2C30"
+      },
+      "850": {
+        "$type": "color",
+        "$value": "#1C1E21"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#16181B"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#121314"
+      }
+    },
+    "blue": {
+      "200": {
+        "$type": "color",
+        "$value": "#7CCBFF"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#3DB6FF"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#075FA6"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#06548F"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0A1A26"
+      }
+    },
+    "green": {
+      "300": {
+        "$type": "color",
+        "$value": "#4ADE94"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#0B6338"
+      }
+    },
+    "red": {
+      "300": {
+        "$type": "color",
+        "$value": "#FF8F82"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#A42A21"
+      }
+    },
+    "amber": {
+      "300": {
+        "$type": "color",
+        "$value": "#F7C04A"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#7A4E00"
+      }
+    }
+  },
+  "dark": {
+    "bg": {
+      "canvas": {
+        "$type": "color",
+        "$value": "{primitive.neutral.950}"
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "#0E0F1073"
+      }
+    },
+    "surface": {
+      "shell": {
+        "$type": "color",
+        "$value": "#1C1E217A"
+      },
+      "card": {
+        "$type": "color",
+        "$value": "#2E3135A8"
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "#3B3E43BD"
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{primitive.neutral.825}"
+      },
+      "inset": {
+        "$type": "color",
+        "$value": "#00000038"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#FFFFFF24"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{primitive.neutral.50}"
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "#FFFFFF1A"
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "#FFFFFF29"
+      },
+      "control": {
+        "$type": "color",
+        "$value": "{primitive.neutral.500}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.50}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.300}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.400}"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{primitive.blue.950}"
+      },
+      "on-inverse": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      }
+    },
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{primitive.blue.300}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{primitive.blue.200}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "#3DB6FF29"
+      }
+    },
+    "status": {
+      "positive": {
+        "$type": "color",
+        "$value": "{primitive.green.300}"
+      },
+      "negative": {
+        "$type": "color",
+        "$value": "{primitive.red.300}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{primitive.amber.300}"
+      },
+      "positive-subtle": {
+        "$type": "color",
+        "$value": "#4ADE9429"
+      },
+      "negative-subtle": {
+        "$type": "color",
+        "$value": "#FF8F8229"
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "#F7C04A29"
+      }
+    },
+    "data": {
+      "accent": {
+        "$type": "color",
+        "$value": "{primitive.blue.300}"
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{primitive.neutral.500}"
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "#FFFFFF14"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$type": "color",
+        "$value": "{primitive.blue.200}"
+      }
+    }
+  },
+  "light": {
+    "bg": {
+      "canvas": {
+        "$type": "color",
+        "$value": "{primitive.neutral.100}"
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "#FFFFFF73"
+      }
+    },
+    "surface": {
+      "shell": {
+        "$type": "color",
+        "$value": "#F2F3F594"
+      },
+      "card": {
+        "$type": "color",
+        "$value": "#FFFFFFA3"
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "#FFFFFFCC"
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{primitive.neutral.150}"
+      },
+      "inset": {
+        "$type": "color",
+        "$value": "#16181B0F"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "{primitive.neutral.0}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "#16181B14"
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "#FFFFFFB2"
+      },
+      "control": {
+        "$type": "color",
+        "$value": "{primitive.neutral.550}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.700}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.600}"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{primitive.neutral.0}"
+      },
+      "on-inverse": {
+        "$type": "color",
+        "$value": "{primitive.neutral.0}"
+      }
+    },
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{primitive.blue.600}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{primitive.blue.700}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "#075FA61A"
+      }
+    },
+    "status": {
+      "positive": {
+        "$type": "color",
+        "$value": "{primitive.green.700}"
+      },
+      "negative": {
+        "$type": "color",
+        "$value": "{primitive.red.700}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{primitive.amber.700}"
+      },
+      "positive-subtle": {
+        "$type": "color",
+        "$value": "#0B63381A"
+      },
+      "negative-subtle": {
+        "$type": "color",
+        "$value": "#A42A211A"
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "#7A4E001F"
+      }
+    },
+    "data": {
+      "accent": {
+        "$type": "color",
+        "$value": "{primitive.blue.600}"
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": "{primitive.neutral.525}"
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "#16181B14"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$type": "color",
+        "$value": "{primitive.blue.600}"
+      }
+    }
+  }
+}

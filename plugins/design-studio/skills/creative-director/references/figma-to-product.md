@@ -4,7 +4,7 @@
 > **Last verified:** 2026-10 (Figma MCP plugin skills v2.2.127, Vite 8, React 19)
 > **Used by:** creative-director, ui-designer, art-director
 
-Worked example: **Summit**, a smart-home dashboard design system and app built with this plugin in October 2026 [2][3]. The user approved each stage before the next one started. Items marked **(tested)** were observed while building it; they are not documented by Figma.
+Worked examples: **Summit**, a smart-home dashboard design system and app [2][3], and **Clearbook**, a glass accounting dashboard [4][5], both built with this plugin in October 2026. The user approved each stage before the next one started. Items marked **(tested)** were observed while building it; they are not documented by Figma.
 
 ## 1. The sequence
 
@@ -67,6 +67,8 @@ Build the light version of a screen by cloning it and pinning Light on the clone
 | Sections and pages are light by default (tested) | Set the section `fills` and page `backgrounds` for dark documentation. |
 | `setFileThumbnailNodeAsync` is not supported in the MCP runtime, and setting `fontFeatures` on a text style throws (tested) | Skip them. |
 | `get_metadata` may list one page only (tested) | Always enumerate `figma.root.children`. |
+| Assigning `componentPropertyReferences` replaces the whole object (tested) | Set `{ visible, mainComponent }` in one assignment, or the earlier binding is dropped. |
+| An INSTANCE_SWAP property on a variant set forces one default icon on every variant, like TEXT (tested) | Keep per-variant icons unbound; swap them on instances. |
 
 **Images:**
 - **Cropping:** `scaleMode: 'CROP'` with an `imageTransform` cuts several views from one image, for example four security-camera views from two photos.
@@ -99,7 +101,8 @@ Build the light version of a screen by cloning it and pinning Light on the clone
 2. **Production build:** check that it passes.
 3. **Headless Chrome screenshots:** dark, light, and each route. Compare them with the Figma screens.
 4. **Phone width:** headless Chrome enforces a minimum window of about 500 px (tested). Load the app in a 390 px `<iframe>` and check `document.documentElement.scrollWidth` for overflow.
-5. **Scripted interactions:** drive the app inside an iframe with `--dump-dom`. Click switches, set range inputs through the native value setter plus an `input` event, submit forms, and print the resulting text.
+5. **Translucent surfaces:** for glass or any fill with alpha, sample the rendered screenshot at the darkest and lightest point where the backdrop shows through each card, and compute contrast there (Clearbook, tested: blur over a photo moved a ratio from 4.8:1 on paper to 4.48:1 on screen).
+6. **Scripted interactions:** drive the app inside an iframe with `--dump-dom`. Click switches, set range inputs through the native value setter plus an `input` event, submit forms, and print the resulting text.
 
 Then publish under the user's repository conventions, showing any public text first.
 
@@ -108,3 +111,5 @@ Then publish under the user's repository conventions, showing any public text fi
 [1] Figma. (2026). *figma-use skill: SKILL.md and references/gotchas.md*, Claude Code Figma plugin v2.2.127. Rules on `resize()` resetting sizing modes, variable scopes, and code syntax.
 [2] Borges, G. (2026). *Summit Home: smart home dashboard on a simulated lake house* (v1.1.0). GitHub. https://github.com/guiboorges/summit-home
 [3] Design Studio. (2026). *Summit design system* (tokens, CSS, previews). GitHub. https://github.com/guiboorges/design-studio/tree/main/library/design-systems/summit
+[4] Borges, G. (2026). *Clearbook: accounting dashboard on a simulated design studio* (v1.0.0). GitHub. https://github.com/guiboorges/clearbook
+[5] Design Studio. (2026). *Clearbook design system* (tokens, CSS, previews). GitHub. https://github.com/guiboorges/design-studio/tree/main/library/design-systems/clearbook
