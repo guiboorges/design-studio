@@ -38,6 +38,10 @@ scenes. It also ships as a working app, [Summit Home](https://github.com/guiboor
 |---|---|
 | ![Summit dashboard, dark mode](library/design-systems/summit/preview/dashboard-dark.png) | ![Summit dashboard, light mode](library/design-systems/summit/preview/dashboard-light.png) |
 
+The working app, Summit Home, in the browser:
+
+![Summit Home running in the browser, dark mode](library/design-systems/summit/preview/app-dark.png)
+
 **Clearbook:** a glass design system for accounting dashboards, with translucent panels over studio photos generated
 in Figma AI and contrast measured on rendered pixels. It also ships as a working app,
 [Clearbook](https://github.com/guiboorges/clearbook) ([live demo](https://guiboorges.github.io/clearbook/)). See
@@ -46,6 +50,10 @@ in Figma AI and contrast measured on rendered pixels. It also ships as a working
 | Dark | Light |
 |---|---|
 | ![Clearbook Overview, dark mode](library/design-systems/clearbook/preview/overview-dark.jpg) | ![Clearbook Overview, light mode](library/design-systems/clearbook/preview/overview-light.jpg) |
+
+The working app, Clearbook, in the browser:
+
+![Clearbook running in the browser, dark mode](library/design-systems/clearbook/preview/app-dark.png)
 
 ## Install
 
