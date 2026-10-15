@@ -55,6 +55,19 @@ The working app, Clearbook, in the browser:
 
 ![Clearbook running in the browser, dark mode](library/design-systems/clearbook/preview/app-dark.png)
 
+**Ember:** a warm, light-first design system for running a small business with an online store: wallets, cards, and
+orders, with menu and submenu navigation and a collapsible sidebar. It also ships as a working app,
+[Ember Commerce](https://github.com/guiboorges/ember-commerce) ([live demo](https://guiboorges.github.io/ember-commerce/)).
+See [`library/design-systems/ember`](library/design-systems/ember/).
+
+| Light | Dark |
+|---|---|
+| ![Ember Overview, light mode](library/design-systems/ember/preview/overview-light.jpg) | ![Ember Overview, dark mode](library/design-systems/ember/preview/overview-dark.jpg) |
+
+The working app, Ember Commerce, in the browser:
+
+![Ember Commerce running in the browser: Orders in dark mode with the sidebar collapsed](library/design-systems/ember/preview/app-orders-dark.png)
+
 ## Install
 
 ### Claude Code
