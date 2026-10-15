@@ -34,6 +34,12 @@ A dark-first design system for a smart home dashboard: near-black blue-gray surf
 
 ![Components page](preview/components.png)
 
+## The working app
+
+[Summit Home](https://github.com/guiboorges/summit-home) is the Overview screen built with these tokens, running on a simulated lake house ([live demo](https://guiboorges.github.io/summit-home/)).
+
+![Summit Home running in the browser, dark mode](preview/app-dark.png)
+
 ## Accessibility
 
 All text roles pass WCAG 2.2 AA (4.5:1) against `bg/surface` in both modes; the Figma color page lists every ratio. Two things to know:
