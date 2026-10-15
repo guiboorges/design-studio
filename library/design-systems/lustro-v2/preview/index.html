@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lustro v2 — Overview preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../css/lustro.css">
+<script>
+  // ?theme=dark|light forces a mode; otherwise the OS setting applies.
+  const t = new URLSearchParams(location.search).get('theme');
+  if (t) document.documentElement.dataset.theme = t;
+</script>
+<style>
+  body { margin: 0; padding: 40px; background: #f2f2f2; }
+  :root[data-theme="dark"] body { background: #0d0a08; }
+  .demo { max-inline-size: 1320px; block-size: 840px; margin: 0 auto; }
+  .demo .lv-window { block-size: 100%; }
+  .toggle { position: fixed; inset-block-start: 12px; inset-inline-end: 12px; }
+  @media (max-width: 1100px) { .demo { block-size: auto; } body { padding: 16px; } }
+</style>
+</head>
+<body>
+<button class="lv-btn lv-btn--outline toggle" type="button" id="theme">Toggle dark mode</button>
+
+<div class="demo">
+<div class="lv-window">
+  <nav class="lv-sidebar" aria-label="Main">
+    <img class="lv-window-controls" src="../assets/icons/window-controls.svg" alt="">
+    <div class="lv-brand">
+      <span class="lv-brand__logo"><img src="../assets/icons/logo-sparkles.svg" alt="" width="18" height="18"></span>
+      <span class="lv-t-title-2">Lustro</span>
+    </div>
+    <p class="lv-t-overline lv-sidebar__overline">Navigation</p>
+    <a class="lv-nav-item" href="#" aria-current="page"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-overview-selected.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Overview</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-cleanup.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Cleanup</span><span class="lv-nav-item__detail">8.9 GB</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-dev-purge.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Dev Purge</span><span class="lv-nav-item__detail">1.2 GB</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-space-lens.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Space Lens</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-uninstaller.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Uninstaller</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-maintenance.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Maintenance</span><span class="lv-nav-item__detail">1 alert</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-dev-activity.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Dev Activity</span><span class="lv-nav-item__detail">1 orphan</span></a>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-history.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">History</span><span class="lv-nav-item__detail">3 runs</span></a>
+    <div class="lv-sidebar__spacer"></div>
+    <div class="lv-storage">
+      <div class="lv-storage__title"><img src="../assets/icons/drive.svg" alt="" width="16" height="16"><span class="lv-t-callout-strong">Macintosh HD</span></div>
+      <div class="lv-storage__track" role="meter" aria-valuemin="0" aria-valuemax="494" aria-valuenow="226" aria-label="Disk used, GB"><div class="lv-storage__fill" style="--value:46%"></div></div>
+      <span class="lv-t-caption lv-c-on-brand-muted">226 GB of 494 GB used</span>
+    </div>
+    <div style="block-size:8px"></div>
+    <a class="lv-nav-item" href="#"><span class="lv-nav-item__bubble"><img src="../assets/icons/nav-settings.svg" alt="" width="16" height="16"></span><span class="lv-nav-item__label">Settings</span></a>
+  </nav>
+
+  <main class="lv-panel">
+    <header class="lv-header">
+      <div class="lv-header__title">
+        <h1 class="lv-t-title-1">Overview</h1>
+        <p class="lv-t-callout lv-c-secondary">Last scan 2 minutes ago · nothing is removed until you review it</p>
+      </div>
+      <button class="lv-btn lv-btn--outline" type="button">Open History</button>
+      <button class="lv-btn lv-btn--ink" type="button">Scan Again</button>
+    </header>
+
+    <section class="lv-kpis" aria-label="Summary">
+      <article class="lv-kpi">
+        <p class="lv-t-overline lv-kpi__label">Can be freed</p>
+        <div class="lv-kpi__row">
+          <div class="lv-kpi__value"><p class="lv-kpi__metric"><span class="lv-t-metric">8.9</span><span class="lv-kpi__unit">GB</span></p><p class="lv-t-caption lv-kpi__context">of 13.1 GB found · 43 items</p></div>
+          <div class="lv-bars" aria-hidden="true"><i class="lv-bars__bar" style="--h:18px"></i><i class="lv-bars__bar" style="--h:30px"></i><i class="lv-bars__bar" style="--h:22px"></i><i class="lv-bars__bar is-current" style="--h:40px"></i><i class="lv-bars__bar" style="--h:28px"></i></div>
+        </div>
+      </article>
+      <article class="lv-kpi">
+        <p class="lv-t-overline lv-kpi__label">Disk used</p>
+        <div class="lv-kpi__row">
+          <div class="lv-kpi__value"><p class="lv-kpi__metric"><span class="lv-t-metric">226</span><span class="lv-kpi__unit">GB</span></p><p class="lv-t-caption lv-kpi__context">of 494 GB · 268 GB free</p></div>
+          <div class="lv-bars" aria-hidden="true"><i class="lv-bars__bar" style="--h:18px"></i><i class="lv-bars__bar" style="--h:30px"></i><i class="lv-bars__bar" style="--h:22px"></i><i class="lv-bars__bar is-current" style="--h:40px"></i><i class="lv-bars__bar" style="--h:28px"></i></div>
+        </div>
+      </article>
+      <article class="lv-kpi">
+        <p class="lv-t-overline lv-kpi__label">Restorable</p>
+        <div class="lv-kpi__row"><div class="lv-kpi__value"><p class="lv-kpi__metric"><span class="lv-t-metric">3.4</span><span class="lv-kpi__unit">GB</span></p><p class="lv-t-caption lv-kpi__context">still in the Trash · 2 runs</p></div></div>
+      </article>
+    </section>
+
+    <section class="lv-insights" aria-label="Insights">
+      <article class="lv-card lv-gauge-card">
+        <h2 class="lv-t-title-3">Disk usage</h2>
+        <div class="lv-gauge" role="img" aria-label="46% of the disk used; 1.8% is junk">
+          <svg viewBox="0 0 200 100" aria-hidden="true">
+            <path class="lv-gauge__track" d="M17 100 A83 83 0 0 1 183 100" fill="none" stroke-width="34" pathLength="100"/>
+            <path class="lv-gauge__used" d="M17 100 A83 83 0 0 1 183 100" fill="none" stroke-width="34" pathLength="100" stroke-dasharray="44 100"/>
+            <path class="lv-gauge__junk" d="M17 100 A83 83 0 0 1 183 100" fill="none" stroke-width="34" pathLength="100" stroke-dasharray="2.5 100" stroke-dashoffset="-44"/>
+          </svg>
+          <p class="lv-t-metric lv-gauge__value">46%</p>
+        </div>
+        <p class="lv-t-caption lv-c-secondary">1.8% is junk Lustro can remove</p>
+      </article>
+
+      <article class="lv-card lv-breakdown">
+        <h2 class="lv-t-title-3">Junk by type</h2>
+        <p class="lv-kpi__metric"><span class="lv-t-metric">13.1</span><span class="lv-t-callout lv-c-secondary">GB found</span></p>
+        <div class="lv-legend__row"><i class="lv-legend__dot" style="--dot:var(--lustro-brand-rust-700)"></i><span class="lv-t-callout lv-legend__label">App caches</span><span class="lv-t-callout-strong lv-legend__value">60%</span></div>
+        <div class="lv-legend__row"><i class="lv-legend__dot" style="--dot:var(--lustro-brand-orange-500)"></i><span class="lv-t-callout lv-legend__label">Developer tools</span><span class="lv-t-callout-strong lv-legend__value">25%</span></div>
+        <div class="lv-legend__row"><i class="lv-legend__dot" style="--dot:var(--lustro-brand-orange-300)"></i><span class="lv-t-callout lv-legend__label">AI tools</span><span class="lv-t-callout-strong lv-legend__value">7%</span></div>
+        <div class="lv-legend__row"><i class="lv-legend__dot" style="--dot:var(--lustro-brand-peach-100)"></i><span class="lv-t-callout lv-legend__label">Logs &amp; other</span><span class="lv-t-callout-strong lv-legend__value">8%</span></div>
+        <button class="lv-btn lv-btn--outline lv-btn--block" type="button">Review in Cleanup</button>
+      </article>
+
+      <article class="lv-card" style="gap:12px">
+        <div class="lv-card__head">
+          <div class="lv-card__head-text"><h2 class="lv-t-title-3">Largest folders</h2><p class="lv-t-caption lv-c-secondary">~/Library/Application Support · from Space Lens</p></div>
+          <img src="../assets/icons/chevron-right-secondary.svg" alt="" width="16" height="16">
+        </div>
+        <div class="lv-treemap">
+          <div class="lv-tile" style="--tile:var(--lustro-brand-rust-700); grid-row: 1 / 4"><span class="lv-t-callout-strong">Claude</span><span class="lv-t-caption lv-tile__size">14 GB</span></div>
+          <div class="lv-tile" style="--tile:var(--lustro-brand-orange-500); grid-row: 1 / 3"><span class="lv-t-callout-strong">Notion</span><span class="lv-t-caption lv-tile__size">3.1 GB</span></div>
+          <div class="lv-tile lv-tile--light" style="--tile:var(--lustro-brand-orange-300); grid-row: 1 / 3"><span class="lv-t-callout-strong">Figma</span><span class="lv-t-caption lv-tile__size">1.2 GB</span></div>
+          <div class="lv-tile" style="--tile:var(--lustro-chart-ink)"><span class="lv-t-callout-strong">Code</span><span class="lv-t-caption lv-tile__size">1.1 GB</span></div>
+          <div class="lv-tile" style="--tile:var(--lustro-brand-peach-100)"></div>
+          <div class="lv-tile lv-tile--light" style="--tile:var(--lustro-chart-sand); grid-column: 2"><span class="lv-t-callout-strong">Google</span><span class="lv-t-caption lv-tile__size">850 MB</span></div>
+          <div class="lv-tile lv-tile--light" style="--tile:var(--lustro-brand-peach-100)"><span class="lv-t-callout-strong">Adobe</span><span class="lv-t-caption lv-tile__size">546 MB</span></div>
+          <div class="lv-tile" style="--tile:var(--lustro-brand-peach-50)"></div>
+          <div class="lv-tooltip" role="tooltip" style="inset-inline-start:14px; inset-block-start:58%"><span class="lv-t-callout-strong">Claude · 55%</span><span class="lv-t-caption lv-tooltip__detail">Mostly Electron caches</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="lv-actions" aria-label="Actions">
+      <div class="lv-action lv-action--ink">
+        <div class="lv-ring" role="img" aria-label="8.9 GB ready to clean">
+          <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><circle class="lv-ring__track" cx="32" cy="32" r="28" fill="none" stroke-width="6"/><circle class="lv-ring__progress" cx="32" cy="32" r="28" fill="none" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="92 100"/></svg>
+          <span class="lv-t-callout-strong lv-ring__value">8.9</span>
+        </div>
+        <div class="lv-action__text"><span class="lv-t-title-3">Cleanup ready</span><span class="lv-t-caption lv-action__detail">43 items · all go to the Trash</span></div>
+        <button class="lv-action__go" type="button" aria-label="Open Cleanup"><img src="../assets/icons/chevron-right-on-brand.svg" alt="" width="16" height="16"></button>
+      </div>
+      <div class="lv-action lv-action--soft">
+        <div class="lv-ring" role="img" aria-label="5 inactive projects">
+          <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><circle class="lv-ring__track" cx="32" cy="32" r="28" fill="none" stroke-width="6"/><circle class="lv-ring__progress" cx="32" cy="32" r="28" fill="none" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="45 100"/></svg>
+          <span class="lv-t-callout-strong lv-ring__value">5</span>
+        </div>
+        <div class="lv-action__text"><span class="lv-t-title-3">Dev Purge</span><span class="lv-t-caption lv-action__detail">5 inactive projects · 1.2 GB</span></div>
+        <button class="lv-action__go" type="button" aria-label="Open Dev Purge"><img src="../assets/icons/chevron-right-primary.svg" alt="" width="16" height="16"></button>
+      </div>
+      <aside class="lv-promo">
+        <img class="lv-promo__mark" src="../assets/icons/shield.svg" alt="">
+        <p class="lv-t-overline lv-promo__muted">Lustro</p>
+        <p class="lv-t-title-2">Safe by design</p>
+        <p class="lv-t-caption lv-promo__muted">Every item explains why it's safe. Put anything back from History.</p>
+        <div class="lv-promo__chips"><span class="lv-t-caption lv-chip-glass">Trash by default</span><span class="lv-t-caption lv-chip-glass">Why? on every item</span></div>
+      </aside>
+    </section>
+  </main>
+</div>
+</div>
+<script>
+  document.getElementById('theme').addEventListener('click', () => {
+    const root = document.documentElement;
+    const dark = root.dataset.theme === 'dark' || (!root.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+    root.dataset.theme = dark ? 'light' : 'dark';
+  });
+</script>
+</body>
+</html>

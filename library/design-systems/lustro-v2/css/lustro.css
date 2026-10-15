@@ -1,0 +1,6 @@
+/* Lustro v2 — entry file. Load Plus Jakarta Sans first:
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"> */
+@import url("lustro.tokens.css");
+@import url("lustro.components.css");
+
+body { font-family: var(--lustro-font); color: var(--lustro-text-primary); -webkit-font-smoothing: antialiased; }

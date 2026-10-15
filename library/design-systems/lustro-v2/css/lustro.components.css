@@ -1,0 +1,149 @@
+/* Lustro v2 components. Every value comes from css/lustro.tokens.css (--lustro-*). Class prefix: lv- */
+
+/* ---------- Type helpers ---------- */
+.lv-t-display, .lv-t-title-1, .lv-t-title-2, .lv-t-title-3, .lv-t-body, .lv-t-body-strong, .lv-t-callout,
+.lv-t-callout-strong, .lv-t-caption, .lv-t-overline, .lv-t-metric, .lv-t-metric-small { font-family: var(--lustro-font); margin: 0; }
+.lv-t-display { font-size: var(--lustro-type-display-size); line-height: var(--lustro-type-display-line); font-weight: var(--lustro-type-display-weight); letter-spacing: var(--lustro-type-display-tracking); }
+.lv-t-title-1 { font-size: var(--lustro-type-title-1-size); line-height: var(--lustro-type-title-1-line); font-weight: var(--lustro-type-title-1-weight); letter-spacing: var(--lustro-type-title-1-tracking); }
+.lv-t-title-2 { font-size: var(--lustro-type-title-2-size); line-height: var(--lustro-type-title-2-line); font-weight: var(--lustro-type-title-2-weight); letter-spacing: var(--lustro-type-title-2-tracking); }
+.lv-t-title-3 { font-size: var(--lustro-type-title-3-size); line-height: var(--lustro-type-title-3-line); font-weight: var(--lustro-type-title-3-weight); letter-spacing: var(--lustro-type-title-3-tracking); }
+.lv-t-body { font-size: var(--lustro-type-body-size); line-height: var(--lustro-type-body-line); font-weight: var(--lustro-type-body-weight); }
+.lv-t-body-strong { font-size: var(--lustro-type-body-strong-size); line-height: var(--lustro-type-body-strong-line); font-weight: var(--lustro-type-body-strong-weight); }
+.lv-t-callout { font-size: var(--lustro-type-callout-size); line-height: var(--lustro-type-callout-line); font-weight: var(--lustro-type-callout-weight); }
+.lv-t-callout-strong { font-size: var(--lustro-type-callout-strong-size); line-height: var(--lustro-type-callout-strong-line); font-weight: var(--lustro-type-callout-strong-weight); }
+.lv-t-caption { font-size: var(--lustro-type-caption-size); line-height: var(--lustro-type-caption-line); font-weight: var(--lustro-type-caption-weight); }
+.lv-t-overline { font-size: var(--lustro-type-overline-size); line-height: var(--lustro-type-overline-line); font-weight: var(--lustro-type-overline-weight); letter-spacing: var(--lustro-type-overline-tracking); text-transform: uppercase; }
+.lv-t-metric { font-size: var(--lustro-type-metric-size); line-height: var(--lustro-type-metric-line); font-weight: var(--lustro-type-metric-weight); letter-spacing: var(--lustro-type-metric-tracking); font-variant-numeric: tabular-nums; }
+.lv-t-metric-small { font-size: var(--lustro-type-metric-small-size); line-height: var(--lustro-type-metric-small-line); font-weight: var(--lustro-type-metric-small-weight); letter-spacing: var(--lustro-type-metric-small-tracking); font-variant-numeric: tabular-nums; }
+.lv-c-primary { color: var(--lustro-text-primary); }
+.lv-c-secondary { color: var(--lustro-text-secondary); }
+.lv-c-on-brand { color: var(--lustro-text-on-brand); }
+.lv-c-on-brand-muted { color: var(--lustro-text-on-brand-muted); }
+
+/* ---------- Icon (recolorable mask; assets stay unchanged).
+   Masks need same-origin (CORS) images: serve the folder over http(s). Under file:// use <img> with the exported SVGs. ---------- */
+.lv-icon { display: inline-block; inline-size: 16px; block-size: 16px; flex: none; background: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+
+/* ---------- Focus ---------- */
+.lv-window :focus-visible { outline: 2px solid var(--lustro-brand-orange-500); outline-offset: 2px; }
+.lv-sidebar :focus-visible, .lv-promo :focus-visible { outline-color: var(--lustro-text-on-brand); }
+
+/* ---------- Window and shell ---------- */
+.lv-window { display: flex; align-items: stretch; padding: 10px 10px 10px 0; border-radius: var(--lustro-radius-window);
+  background: var(--lustro-gradient-window); box-shadow: var(--lustro-elevation-window); overflow: clip; font-family: var(--lustro-font); }
+.lv-sidebar { display: flex; flex-direction: column; gap: 4px; inline-size: 244px; flex: none; padding: 16px 18px 8px; }
+.lv-window-controls { inline-size: 56px; block-size: 34px; }
+.lv-brand { display: flex; align-items: center; gap: 10px; padding: 0 0 24px 4px; color: var(--lustro-text-on-brand); }
+.lv-brand__logo { display: grid; place-items: center; inline-size: 34px; block-size: 34px; border-radius: 11px; background: var(--lustro-surface-card); }
+.lv-sidebar__overline { padding: 0 0 8px 6px; color: var(--lustro-text-on-brand-muted); }
+.lv-sidebar__spacer { flex: 1; min-block-size: 24px; }
+
+/* ---------- Nav item ---------- */
+.lv-nav-item { display: flex; align-items: center; gap: 12px; block-size: 44px; padding: 0 14px 0 8px; border-radius: var(--lustro-radius-nav);
+  color: var(--lustro-text-on-brand); text-decoration: none; font-family: var(--lustro-font);
+  font-size: var(--lustro-type-body-size); line-height: var(--lustro-type-body-line); font-weight: 400; }
+.lv-nav-item:hover { background: var(--lustro-glass-white-16); }
+.lv-nav-item[aria-current="page"] { background: var(--lustro-glass-white-24); font-weight: 600; }
+.lv-nav-item__bubble { display: grid; place-items: center; inline-size: 30px; block-size: 30px; border-radius: 15px; background: var(--lustro-glass-white-16); flex: none; }
+.lv-nav-item[aria-current="page"] .lv-nav-item__bubble { background: var(--lustro-surface-card); color: var(--lustro-brand-rust-700); }
+.lv-nav-item__label { flex: 1; }
+.lv-nav-item__detail { color: var(--lustro-text-on-brand-muted); font-size: var(--lustro-type-caption-size); line-height: var(--lustro-type-caption-line); font-weight: 500; }
+
+/* ---------- Storage meter ---------- */
+.lv-storage { display: flex; flex-direction: column; gap: 10px; padding: 14px; border-radius: 18px; background: var(--lustro-glass-white-16); color: var(--lustro-text-on-brand); }
+.lv-storage__title { display: flex; align-items: center; gap: 8px; }
+.lv-storage__track { block-size: 6px; border-radius: 4px; background: var(--lustro-glass-white-24); overflow: hidden; }
+.lv-storage__fill { block-size: 100%; inline-size: var(--value, 50%); border-radius: 4px; background: var(--lustro-surface-card); }
+
+/* ---------- Panel ---------- */
+.lv-panel { flex: 1; min-inline-size: 0; display: flex; flex-direction: column; gap: 20px; padding: 26px 28px 24px; border-radius: var(--lustro-radius-panel); background: var(--lustro-surface-canvas); color: var(--lustro-text-primary); }
+.lv-header { display: flex; align-items: center; gap: 10px; }
+.lv-header__title { flex: 1; display: flex; flex-direction: column; gap: 4px; min-inline-size: 0; }
+
+/* ---------- Buttons ---------- */
+.lv-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; block-size: 40px; padding: 0 18px; border-radius: var(--lustro-radius-control);
+  border: 1px solid transparent; font-family: var(--lustro-font); font-size: var(--lustro-type-callout-strong-size); line-height: var(--lustro-type-callout-strong-line); font-weight: 600; cursor: pointer; white-space: nowrap; }
+.lv-btn--ink { background: var(--lustro-surface-ink); color: var(--lustro-text-on-brand); }
+.lv-btn--brand { background: var(--lustro-gradient-go-button); color: var(--lustro-text-on-brand); box-shadow: 0 6px 16px rgb(217 82 15 / 0.3); }
+.lv-btn--outline { background: var(--lustro-surface-card); border-color: var(--lustro-border-subtle); color: var(--lustro-text-primary); }
+.lv-btn--block { inline-size: 100%; }
+.lv-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ---------- Cards ---------- */
+.lv-kpi, .lv-card { background: var(--lustro-surface-card); box-shadow: var(--lustro-elevation-card); }
+.lv-kpi { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; border-radius: var(--lustro-radius-kpi); min-inline-size: 0; }
+.lv-kpi__label { color: var(--lustro-text-secondary); }
+.lv-kpi__row { display: flex; align-items: flex-end; gap: 12px; }
+.lv-kpi__value { flex: 1; display: flex; flex-direction: column; gap: 4px; min-inline-size: 0; }
+.lv-kpi__metric { display: flex; align-items: baseline; gap: 4px; }
+.lv-kpi__unit { color: var(--lustro-text-secondary); font-size: 16px; line-height: 22px; font-weight: 600; letter-spacing: -0.005em; }
+.lv-kpi__context { color: var(--lustro-text-secondary); }
+.lv-bars { display: flex; align-items: flex-end; gap: 4px; }
+.lv-bars__bar { inline-size: 8px; block-size: var(--h, 20px); border-radius: 3px; background: var(--lustro-brand-peach-100); }
+.lv-bars__bar.is-current { background: var(--lustro-brand-orange-500); }
+.lv-card { display: flex; flex-direction: column; padding: 18px 20px; border-radius: var(--lustro-radius-card); min-inline-size: 0; }
+.lv-card__head { display: flex; align-items: center; gap: 8px; }
+.lv-card__head-text { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+
+/* ---------- Gauge (data-driven SVG) ---------- */
+.lv-gauge-card { align-items: center; justify-content: space-between; }
+.lv-gauge-card > .lv-t-title-3 { align-self: stretch; }
+.lv-gauge { position: relative; inline-size: 200px; block-size: 120px; }
+.lv-gauge svg { display: block; inline-size: 200px; block-size: 100px; overflow: visible; }
+.lv-gauge__track { stroke: var(--lustro-brand-peach-100); }
+.lv-gauge__used { stroke: var(--lustro-brand-orange-300); }
+.lv-gauge__junk { stroke: var(--lustro-surface-ink); }
+.lv-gauge__value { position: absolute; inset-inline: 0; inset-block-start: 62px; text-align: center; }
+
+/* ---------- Legend ---------- */
+.lv-breakdown { justify-content: space-between; }
+.lv-legend__row { display: flex; align-items: center; gap: 8px; }
+.lv-legend__dot { inline-size: 8px; block-size: 8px; border-radius: 50%; background: var(--dot); flex: none; }
+.lv-legend__label { flex: 1; }
+.lv-legend__value { color: var(--lustro-text-secondary); }
+
+/* ---------- Treemap + tooltip ---------- */
+.lv-treemap { position: relative; flex: 1; min-block-size: 240px; display: grid; gap: 6px;
+  grid-template-columns: 157fr 90fr 50fr 50fr; grid-template-rows: 97fr 72fr 115fr; padding: 3px; }
+.lv-tile { white-space: nowrap; position: relative; border-radius: var(--lustro-radius-tile); padding: 10px 12px; overflow: hidden; display: flex; flex-direction: column; background: var(--tile); color: var(--tile-text, var(--lustro-text-on-brand)); }
+.lv-tile__size { color: var(--tile-muted, var(--lustro-text-on-brand-muted)); }
+.lv-tile--light { --tile-text: var(--lustro-text-primary); --tile-muted: var(--lustro-text-secondary); }
+.lv-tooltip { position: absolute; display: flex; flex-direction: column; padding: 8px 12px; border-radius: var(--lustro-radius-tooltip); background: var(--lustro-surface-ink); color: var(--lustro-text-on-brand); box-shadow: var(--lustro-elevation-floating); white-space: nowrap; }
+.lv-tooltip__detail { color: var(--lustro-text-on-brand-muted); }
+
+/* ---------- Ring (data-driven SVG) ---------- */
+.lv-ring { position: relative; inline-size: 64px; block-size: 64px; flex: none; }
+.lv-ring svg { display: block; transform: rotate(-90deg); }
+.lv-ring__track { stroke: var(--ring-track, var(--lustro-brand-peach-100)); }
+.lv-ring__progress { stroke: var(--ring-progress, var(--lustro-status-safe)); }
+.lv-ring__value { position: absolute; inset: 0; display: grid; place-items: center; }
+
+/* ---------- Action pill ---------- */
+.lv-action { display: flex; align-items: center; gap: 16px; padding: 14px 20px 14px 14px; border-radius: var(--lustro-radius-pill); min-inline-size: 0; }
+.lv-action__text { flex: 1; display: flex; flex-direction: column; gap: 2px; min-inline-size: 0; }
+.lv-action__go { display: grid; place-items: center; inline-size: 40px; block-size: 40px; border-radius: 20px; border: 0; cursor: pointer; flex: none; }
+.lv-action--ink { background: var(--lustro-surface-ink); color: var(--lustro-text-on-brand); --ring-track: var(--lustro-chart-ink); --ring-progress: var(--lustro-brand-orange-500); }
+.lv-action--ink .lv-action__detail { color: var(--lustro-text-on-brand-muted); }
+.lv-action--ink .lv-action__go { background: var(--lustro-gradient-go-button); color: var(--lustro-text-on-brand); }
+.lv-action--soft { background: var(--lustro-surface-sunken); color: var(--lustro-text-primary); }
+.lv-action--soft .lv-action__detail { color: var(--lustro-text-secondary); }
+.lv-action--soft .lv-action__go { background: var(--lustro-surface-card); color: var(--lustro-text-primary); }
+
+/* ---------- Promo ---------- */
+.lv-promo { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 16px 20px; border-radius: var(--lustro-radius-panel); background: var(--lustro-gradient-promo); color: var(--lustro-text-on-brand); overflow: hidden; }
+.lv-promo__mark { position: absolute; inset-inline-end: -10px; inset-block-start: 4px; inline-size: 120px; block-size: 120px; pointer-events: none; }
+.lv-promo__muted { color: var(--lustro-text-on-brand-muted); }
+.lv-promo__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.lv-chip-glass { padding: 4px 10px; border-radius: 12px; background: var(--lustro-glass-white-24); }
+
+/* ---------- Overview grid ---------- */
+.lv-kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.lv-insights { flex: 1; display: grid; grid-template-columns: 270px 290px minmax(0, 1fr); gap: 20px; min-block-size: 0; }
+.lv-actions { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 330px; gap: 20px; }
+@media (max-width: 1100px) {
+  .lv-window { flex-direction: column; padding: 10px; }
+  .lv-sidebar { inline-size: auto; }
+  .lv-insights, .lv-actions { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) { .lv-kpis { grid-template-columns: 1fr; } }
