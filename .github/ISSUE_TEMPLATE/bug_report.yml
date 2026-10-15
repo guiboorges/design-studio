@@ -1,0 +1,40 @@
+name: Bug report
+description: A skill, agent, or install step doesn't work as described
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! For questions, use [Discussions](https://github.com/guiboorges/design-studio/discussions) instead. To report a wrong or outdated fact, use the "Wrong or outdated fact" form.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [Claude Code, Codex]
+    validations:
+      required: true
+  - type: input
+    id: part
+    attributes:
+      label: Which part?
+      placeholder: e.g. creative-director, the typographer agent, codex/install.sh
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Your prompt, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs
+      render: shell
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: "claude --version (or Codex app version) and the design-studio version"
+    validations:
+      required: true

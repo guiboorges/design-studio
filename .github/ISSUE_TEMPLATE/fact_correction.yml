@@ -1,0 +1,33 @@
+name: Wrong or outdated fact
+description: A spec, date, quote, or claim in the knowledge base is wrong or has changed
+labels: [knowledge]
+body:
+  - type: markdown
+    attributes:
+      value: Every fact in the knowledge base is meant to be cited and dated. If one is wrong or out of date, send the correct value with a source, preferably a primary one (an official spec, the platform's help page, the original paper or book).
+  - type: input
+    id: file
+    attributes:
+      label: File and section
+      placeholder: e.g. skills/media-specs/references/social-formats.md, section 2 (Instagram)
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the file says now
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (URL) and the date you checked it
+      placeholder: https://… (checked 2026-10)
+    validations:
+      required: true

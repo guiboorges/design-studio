@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question
+    url: https://github.com/guiboorges/design-studio/discussions/categories/q-a
+    about: Ask how to install or use Design Studio
+  - name: Idea or suggestion
+    url: https://github.com/guiboorges/design-studio/discussions/categories/ideas
+    about: Suggest a specialist, a knowledge area, or an improvement
+  - name: Show what you made
+    url: https://github.com/guiboorges/design-studio/discussions/categories/show-and-tell
+    about: Share something you designed with it
