@@ -1,0 +1,381 @@
+{
+  "$description": "Summit color. primitive = raw values (hidden in Figma). dark/light = semantic roles aliasing primitives; Figma collection \"Color\", modes Dark and Light. Exported from Figma file 8gsuVqQS5Lgr67TsrRa5bP.",
+  "primitive": {
+    "neutral": {
+      "0": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "#F6F7F9"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#EEF1F4"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E4E8EC"
+      },
+      "150": {
+        "$type": "color",
+        "$value": "#DDE1E6"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#C4CAD1"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#A3ABB5"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#8A929C"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#646C76"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#525A64"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#2E343B"
+      },
+      "750": {
+        "$type": "color",
+        "$value": "#22272D"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#1A1E23"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#111418"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0B0D10"
+      }
+    },
+    "orange": {
+      "100": {
+        "$type": "color",
+        "$value": "#FFE8D6"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FFC9A0"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FFA867"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#FF8A3D"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#E0600E"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#B34B0A"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#853808"
+      }
+    },
+    "teal": {
+      "100": {
+        "$type": "color",
+        "$value": "#CDF7F1"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#94ECDF"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#5CDDCC"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#2FCAB8"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#14A898"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#0C7268"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#08524B"
+      }
+    },
+    "green": {
+      "300": {
+        "$type": "color",
+        "$value": "#4ADE80"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#13703A"
+      }
+    },
+    "amber": {
+      "300": {
+        "$type": "color",
+        "$value": "#FBBF24"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#8F5706"
+      }
+    },
+    "red": {
+      "300": {
+        "$type": "color",
+        "$value": "#F87171"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#C2272D"
+      }
+    }
+  },
+  "dark": {
+    "bg": {
+      "canvas": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{primitive.neutral.800}"
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "{primitive.neutral.750}"
+      },
+      "sunken": {
+        "$type": "color",
+        "$value": "{primitive.neutral.950}"
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{primitive.neutral.700}"
+      },
+      "control": {
+        "$type": "color",
+        "$value": "{primitive.neutral.500}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.50}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.300}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.400}"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{primitive.neutral.300}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{primitive.neutral.50}"
+      }
+    },
+    "accent": {
+      "orange": {
+        "$type": "color",
+        "$value": "{primitive.orange.400}"
+      },
+      "orange-text": {
+        "$type": "color",
+        "$value": "{primitive.orange.400}"
+      },
+      "orange-subtle": {
+        "$type": "color",
+        "$value": "{primitive.orange.700}"
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "{primitive.teal.400}"
+      },
+      "teal-text": {
+        "$type": "color",
+        "$value": "{primitive.teal.400}"
+      },
+      "teal-subtle": {
+        "$type": "color",
+        "$value": "{primitive.teal.700}"
+      }
+    },
+    "data": {
+      "orange": {
+        "$type": "color",
+        "$value": "{primitive.orange.400}"
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "{primitive.teal.400}"
+      },
+      "track": {
+        "$type": "color",
+        "$value": "{primitive.neutral.700}"
+      }
+    },
+    "status": {
+      "success": {
+        "$type": "color",
+        "$value": "{primitive.green.300}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{primitive.amber.300}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{primitive.red.300}"
+      }
+    }
+  },
+  "light": {
+    "bg": {
+      "canvas": {
+        "$type": "color",
+        "$value": "{primitive.neutral.50}"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{primitive.neutral.0}"
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "{primitive.neutral.25}"
+      },
+      "sunken": {
+        "$type": "color",
+        "$value": "{primitive.neutral.100}"
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{primitive.neutral.150}"
+      },
+      "control": {
+        "$type": "color",
+        "$value": "{primitive.neutral.400}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.600}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{primitive.neutral.500}"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{primitive.neutral.600}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{primitive.neutral.900}"
+      }
+    },
+    "accent": {
+      "orange": {
+        "$type": "color",
+        "$value": "{primitive.orange.400}"
+      },
+      "orange-text": {
+        "$type": "color",
+        "$value": "{primitive.orange.600}"
+      },
+      "orange-subtle": {
+        "$type": "color",
+        "$value": "{primitive.orange.100}"
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "{primitive.teal.400}"
+      },
+      "teal-text": {
+        "$type": "color",
+        "$value": "{primitive.teal.600}"
+      },
+      "teal-subtle": {
+        "$type": "color",
+        "$value": "{primitive.teal.100}"
+      }
+    },
+    "data": {
+      "orange": {
+        "$type": "color",
+        "$value": "{primitive.orange.500}"
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "{primitive.teal.600}"
+      },
+      "track": {
+        "$type": "color",
+        "$value": "{primitive.neutral.100}"
+      }
+    },
+    "status": {
+      "success": {
+        "$type": "color",
+        "$value": "{primitive.green.700}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{primitive.amber.700}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{primitive.red.700}"
+      }
+    }
+  }
+}

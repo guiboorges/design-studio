@@ -30,6 +30,14 @@ light and dark mode. See [`library/design-systems/lustro-v2`](library/design-sys
 |---|---|
 | ![Lustro v2 Overview, light mode](library/design-systems/lustro-v2/preview/screenshots/overview-light.png) | ![Lustro v2 Overview, dark mode](library/design-systems/lustro-v2/preview/screenshots/overview-dark.png) |
 
+**Summit:** a dark-first smart home design system with lake-house imagery generated in Figma AI, orange data and teal
+scenes. It also ships as a working app, [Summit Home](https://github.com/guiboorges/summit-home)
+([live demo](https://guiboorges.github.io/summit-home/)). See [`library/design-systems/summit`](library/design-systems/summit/).
+
+| Dark | Light |
+|---|---|
+| ![Summit dashboard, dark mode](library/design-systems/summit/preview/dashboard-dark.png) | ![Summit dashboard, light mode](library/design-systems/summit/preview/dashboard-light.png) |
+
 ## Install
 
 ### Claude Code

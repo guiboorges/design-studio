@@ -1,0 +1,326 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "$value": [
+        "Manrope",
+        "system-ui",
+        "sans-serif"
+      ]
+    }
+  },
+  "type": {
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 40,
+          "unit": "px"
+        },
+        "lineHeight": 1.2,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.02,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Display",
+          "lineHeightPx": 48,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "heading-h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "lineHeight": 1.25,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.015,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Heading/H1",
+          "lineHeightPx": 40,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "heading-h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "lineHeight": 1.3333333333333333,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Heading/H2",
+          "lineHeightPx": 32,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "heading-h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "lineHeight": 1.4,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.005,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Heading/H3",
+          "lineHeightPx": 28,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "lineHeight": 1.5,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Title",
+          "lineHeightPx": 24,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "lineHeight": 1.4285714285714286,
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Body/Regular",
+          "lineHeightPx": 20,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "body-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "lineHeight": 1.4285714285714286,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Body/Strong",
+          "lineHeightPx": 20,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 13,
+          "unit": "px"
+        },
+        "lineHeight": 1.2307692307692308,
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Label",
+          "lineHeightPx": 16,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "lineHeight": 1.3333333333333333,
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Caption",
+          "lineHeightPx": 16,
+          "uppercase": false,
+          "tabularNums": false
+        }
+      }
+    },
+    "overline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 11,
+          "unit": "px"
+        },
+        "lineHeight": 1.4545454545454546,
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": 0.06,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Overline",
+          "lineHeightPx": 16,
+          "uppercase": true,
+          "tabularNums": false
+        }
+      }
+    },
+    "metric-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 40,
+          "unit": "px"
+        },
+        "lineHeight": 1.1,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.02,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Metric/XL",
+          "lineHeightPx": 44,
+          "uppercase": false,
+          "tabularNums": true
+        }
+      }
+    },
+    "metric-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 28,
+          "unit": "px"
+        },
+        "lineHeight": 1.1428571428571428,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Metric/L",
+          "lineHeightPx": 32,
+          "uppercase": false,
+          "tabularNums": true
+        }
+      }
+    },
+    "metric-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "lineHeight": 1.2,
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": -0.005,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "summit": {
+          "figmaStyle": "Metric/M",
+          "lineHeightPx": 24,
+          "uppercase": false,
+          "tabularNums": true
+        }
+      }
+    }
+  }
+}
