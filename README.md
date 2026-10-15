@@ -18,6 +18,18 @@ design systems, brands, magazines, social posts, billboards, and packaging.
 | **Knowledge skills** | `typography`, `color`, `layout-composition`, `accessibility`, `media-specs`, `visual-styles` (31 styles with token recipes), `design-history` (~60 masters, movements, studios), `cognitive-psychology` (evidence-graded biases, laws of UX, dark-pattern ethics). Every claim is cited. Volatile specs carry the month they were verified. |
 | **Specialists** | `design-critic`, `typographer`, `color-specialist`, `accessibility-specialist`, `art-director`, `social-media-designer`, `print-ooh-designer`, `ui-designer`, `editorial-designer`. |
 
+## Examples
+
+Designs made with Design Studio and kept in the [design library](library/). They were designed in Figma first,
+then exported to tokens, CSS, and components.
+
+**Lustro v2:** a warm dashboard design system with a gradient window, frosted navigation, and ink action pills, in
+light and dark mode. See [`library/design-systems/lustro-v2`](library/design-systems/lustro-v2/).
+
+| Light | Dark |
+|---|---|
+| ![Lustro v2 Overview, light mode](library/design-systems/lustro-v2/preview/screenshots/overview-light.png) | ![Lustro v2 Overview, dark mode](library/design-systems/lustro-v2/preview/screenshots/overview-dark.png) |
+
 ## Install
 
 ### Claude Code
