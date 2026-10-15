@@ -98,6 +98,10 @@ user hasn't said where the work should live, ask one question first: Figma, code
 and the job is UI/UX or a design system, default to **Figma first**. Show screenshots, get approval, and only then
 generate code from the approved design. A code-first build the user didn't ask for wastes their budget.
 
+For a reference image or brief that should become a design system, a coded product, or both, open
+`references/figma-to-product.md`. It has the stage-by-stage sequence with approval gates, the Figma file
+structure, the Figma API traps, the token-to-code pattern, and how to verify before showing.
+
 Pick the richest channel available. Never claim to have produced a visual that no tool produced.
 
 | Channel | When | How |
