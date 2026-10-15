@@ -22,7 +22,7 @@ every value here is exported from that file.
 | `tokens/layout.tokens.json` | Spacing (4 px base), radii (xs 6 → 2xl 28, full), shadows (card, floating, hero), and sizes (sidebar 216 / 72, control 40, button 44) |
 | `css/ember.tokens.css` | **Generated** CSS variables (`--ember-*`), plus `--ember-hero-gradient`. Run `python3 build/build-css.py` after editing tokens. |
 | `assets/icons/` | The 56 Lucide icons used in the Figma library (ISC license) |
-| `preview/` | Figma exports of the cover, both Overview screens, and the navigation map, plus the running app |
+| `preview/` | Figma exports of the cover, both Overview screens, the navigation map, and the phone screens, plus the running app |
 
 ## Use it
 
@@ -44,6 +44,16 @@ The top tabs choose an area; the sidebar lists that area's pages, with the area 
 from 216 px with labels to 72 px with icons; theme, help, and account actions never move.
 
 ![Navigation map: each top tab with its sidebar pages](preview/navigation-map.png)
+
+## Phones: a bottom tab bar
+
+Under 600 px the top tabs and the sidebar give way to a bottom Tab Bar, like Instagram's: Home, Orders, a central
+orange **+** that opens a sheet of quick actions, Finance, and More (Products, Customers, Reports, and settings). Labels
+stay visible, the active item gets the ink pill, every item is 64 × 56 (above the 44 pt and 48 dp minimums), and the bar
+sits above the home indicator with `env(safe-area-inset-bottom)`. The area's pages become a scrolling row under the page
+title, and the order table becomes a compact list.
+
+![Phone screens from the Figma file: Home, Orders, the Create sheet, More, and dark versions](preview/mobile.jpg)
 
 ## Accessibility
 
