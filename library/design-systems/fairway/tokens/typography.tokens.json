@@ -1,0 +1,416 @@
+{
+  "$description": "Fairway type scale. Sora (SIL OFL 1.1), weights 400/600/700 only (Figma has no Sora Medium). Letter spacing in em (Figma percent / 100).",
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "$value": [
+        "Sora",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "sans-serif"
+      ]
+    }
+  },
+  "type": {
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 48,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.0833,
+        "letterSpacing": {
+          "value": -0.02,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 52,
+          "figmaStyle": "Display",
+          "use": "Course name and page hero (\"Emerald Ridge\")."
+        }
+      }
+    },
+    "kpi-large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 40,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": 1.1,
+        "letterSpacing": {
+          "value": -0.015,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 44,
+          "figmaStyle": "KPI/Large",
+          "use": "Hero numbers. Tabular figures in code.",
+          "fontVariantNumeric": "tabular-nums"
+        }
+      }
+    },
+    "kpi-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 28,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.1429,
+        "letterSpacing": {
+          "value": -0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 32,
+          "figmaStyle": "KPI/Medium",
+          "use": "Numbers on KPI cards. Tabular figures in code.",
+          "fontVariantNumeric": "tabular-nums"
+        }
+      }
+    },
+    "heading-1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 30,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.2,
+        "letterSpacing": {
+          "value": -0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 36,
+          "figmaStyle": "Heading/1",
+          "use": "Page title."
+        }
+      }
+    },
+    "heading-2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": -0.005,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 32,
+          "figmaStyle": "Heading/2",
+          "use": "Section title."
+        }
+      }
+    },
+    "heading-3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 24,
+          "figmaStyle": "Heading/3",
+          "use": "Card title."
+        }
+      }
+    },
+    "body-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 20,
+          "figmaStyle": "Body/Regular",
+          "use": "Body and table cells on solid cards. Never on glass."
+        }
+      }
+    },
+    "body-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 20,
+          "figmaStyle": "Body/Strong",
+          "use": "Row emphasis, names; the default for text on glass."
+        }
+      }
+    },
+    "label-default": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 13,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.2308,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 16,
+          "figmaStyle": "Label/Default",
+          "use": "Buttons, tabs, chips, nav labels."
+        }
+      }
+    },
+    "label-small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 16,
+          "figmaStyle": "Label/Small",
+          "use": "Badges, glass captions."
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 16,
+          "figmaStyle": "Caption",
+          "use": "Helper text and metadata on solid cards only."
+        }
+      }
+    },
+    "overline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.08,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 16,
+          "figmaStyle": "Overline",
+          "use": "Eyebrows, uppercase.",
+          "textTransform": "uppercase"
+        }
+      }
+    },
+    "numeric-default": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 20,
+          "figmaStyle": "Numeric/Default",
+          "use": "Times, euros, percentages in tables. Tabular figures.",
+          "fontVariantNumeric": "tabular-nums"
+        }
+      }
+    },
+    "numeric-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 20,
+          "figmaStyle": "Numeric/Strong",
+          "use": "Emphasised numbers in rows and on glass. Tabular figures.",
+          "fontVariantNumeric": "tabular-nums"
+        }
+      }
+    },
+    "numeric-small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 16,
+          "figmaStyle": "Numeric/Small",
+          "use": "Dense columns, chart axes. Tabular figures.",
+          "fontVariantNumeric": "tabular-nums"
+        }
+      }
+    },
+    "map-tag": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.01,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 16,
+          "figmaStyle": "Map Tag",
+          "use": "Distance pills on the course photo. Always on a solid pill. Tabular figures.",
+          "fontVariantNumeric": "tabular-nums"
+        }
+      }
+    },
+    "hole-number": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family}",
+        "fontSize": {
+          "value": 40,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "lineHeight": 1.0,
+        "letterSpacing": {
+          "value": -0.02,
+          "unit": "em"
+        }
+      },
+      "$extensions": {
+        "fairway": {
+          "lineHeightPx": 40,
+          "figmaStyle": "Hole Number",
+          "use": "The big digit in the hole dial."
+        }
+      }
+    }
+  }
+}

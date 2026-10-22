@@ -15,6 +15,10 @@ computed and documented, and tokens keep the exact design values.
 | System | Look | Source |
 |---|---|---|
 | [Lustro v2](design-systems/lustro-v2/) | Warm rust-to-orange gradient window, frosted navigation, white cards, ink action pills, Plus Jakarta Sans | Figma: Limpo · v2 Premium |
+| [Summit](design-systems/summit/) | Dark-first smart home: blue-gray surfaces, orange data, teal scenes, lake-house photos, Manrope | Figma: Summit — Smart Home Design System |
+| [Clearbook](design-systems/clearbook/) | Glass accounting dashboard: translucent panels over studio photos, one blue accent, Inter | Figma: Clearbook — Accounting Design System |
+| [Ember](design-systems/ember/) | Warm, light-first business and store dashboard: ink pills, one orange, hatched profit bars, Geist | Figma: Ember — Business & Store Design System |
+| [Fairway](design-systems/fairway/) | Light-first golf course and club management: glass over an aerial photo, forest ink, electric lime, Sora | Figma: Fairway — Golf Course Management Design System |
 
 More categories (social templates, print, presentations) will be added as they're built.
 

@@ -68,6 +68,19 @@ The working app, Ember Commerce, in the browser:
 
 ![Ember Commerce running in the browser: Orders in dark mode with the sidebar collapsed](library/design-systems/ember/preview/app-orders-dark.png)
 
+**Fairway:** a light-first design system for running a golf course and its business, with frosted glass over an
+aerial course photo generated in Figma AI, forest ink, and one electric lime. Its working app covers 13 pages, from
+the course map and the tee sheet to carts, agronomy, the pro shop till, stock, staff, and accounting. See
+[`library/design-systems/fairway`](library/design-systems/fairway/).
+
+| Light | Dark |
+|---|---|
+| ![Fairway Overview, light mode](library/design-systems/fairway/preview/overview-light.jpg) | ![Fairway Overview, dark mode](library/design-systems/fairway/preview/overview-dark.jpg) |
+
+The working app, Fairway Course, in the browser:
+
+![Fairway Course running in the browser: Carts, Point of sale, Staff, and Accounting](library/design-systems/fairway/preview/app-pages.jpg)
+
 ## Install
 
 ### Claude Code
