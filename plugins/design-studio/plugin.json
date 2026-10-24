@@ -1,7 +1,7 @@
 {
   "name": "design-studio",
-  "version": "1.0.4",
-  "description": "A full design team: a creative director, specialist agents, and a research-verified, cited design knowledge base (typography, color, layout, accessibility, media specs, visual styles, design history, cognitive psychology).",
+  "version": "1.0.5",
+  "description": "A full design team: a creative director, specialist agents, and a research-verified, cited design knowledge base (typography, color, layout, accessibility, media specs, visual styles, design history, cognitive psychology, AI-slop avoidance).",
   "author": {
     "name": "Guilherme Borges"
   },
@@ -15,7 +15,8 @@
     "branding",
     "typography",
     "color",
-    "accessibility"
+    "accessibility",
+    "ai-slop"
   ],
   "extensions": {
     "com.openai": {
