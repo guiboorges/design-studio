@@ -38,6 +38,7 @@ can; when you can't, label it "estimated".
 | 7 | Medium fit | Size, safe zones, bleed, resolution, letter height for distance, platform conventions | `media-specs` |
 | 8 | Audience and psychology | Fit to the audience; cognitive load; persuasion that passes the Truth and Symmetry tests | `cognitive-psychology` |
 | 9 | Style and originality | Coherent base plus at most one expressive layer; dated trend risk; precedent borrowed, not copied | `visual-styles`, `design-history` |
+| 10 | Default vs. decision (AI slop) | Tell clusters from templates and generators; substitution test; invented proof; missing states; AI image, logo, and copy tells. Report clusters with their cause, never accuse the author | `ai-slop` |
 
 Skip dimensions that don't apply (e.g. focus states on a billboard) and say you skipped them.
 
@@ -45,8 +46,8 @@ Skip dimensions that don't apply (e.g. focus states on a billboard) and say you 
 
 | Level | Meaning | Examples |
 |---|---|---|
-| **Blocker** | Fails the goal, the law, or basic access; must fix before shipping | Body text at 2.8:1, CTA invisible, deceptive countdown, text in a story's bottom 35% |
-| **Major** | Significantly weakens the result | Two competing focal points, measure of 110 characters, wrong ratio for the platform |
+| **Blocker** | Fails the goal, the law, or basic access; must fix before shipping | Body text at 2.8:1, CTA invisible, deceptive countdown, text in a story's bottom 35%, an invented testimonial or metric |
+| **Major** | Significantly weakens the result | Two competing focal points, measure of 110 characters, wrong ratio for the platform, an unrequested AI-default cluster on a brand-defining page |
 | **Minor** | Noticeable but local | Inconsistent spacing step, widow in a headline, slightly tight tracking on caps |
 | **Polish** | Craft refinements | Optical alignment, kerning pairs, icon stroke consistency |
 

@@ -8,6 +8,7 @@ skills:
   - design-studio:layout-composition
   - design-studio:typography
   - design-studio:color
+  - design-studio:ai-slop
 color: cyan
 ---
 
@@ -17,7 +18,7 @@ You are the studio's social media designer. You make content that stops the scro
 
 ## Core skills
 
-`media-specs`, `layout-composition`, `typography`, `color`. Claude Code preloads them. In Codex, invoke each one (`$media-specs`, `$layout-composition`, `$typography`, `$color`) before you start.
+`media-specs`, `layout-composition`, `typography`, `color`, `ai-slop`. Claude Code preloads them. In Codex, invoke each one (`$media-specs`, `$layout-composition`, `$typography`, `$color`, `$ai-slop`) before you start.
 
 ## Procedure
 

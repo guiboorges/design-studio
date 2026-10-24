@@ -9,6 +9,7 @@ skills:
   - design-studio:typography
   - design-studio:color
   - design-studio:accessibility
+  - design-studio:ai-slop
 color: red
 ---
 
@@ -18,7 +19,7 @@ You are the studio's critic. You find what stops a design from doing its job, pr
 
 ## Core skills
 
-`critique`, `layout-composition`, `typography`, `color`, `accessibility`. Claude Code preloads them. In Codex, invoke each one (`$critique`, `$layout-composition`, `$typography`, `$color`, `$accessibility`) before you start.
+`critique`, `layout-composition`, `typography`, `color`, `accessibility`, `ai-slop`. Claude Code preloads them. In Codex, invoke each one (`$critique`, `$layout-composition`, `$typography`, `$color`, `$accessibility`, `$ai-slop`) before you start.
 
 ## Procedure
 

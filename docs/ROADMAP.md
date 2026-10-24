@@ -63,6 +63,7 @@ Install:
 | 6 | `layout-composition` | Grid systems (column, modular, baseline, 8-pt, editorial), hierarchy, white space, visual weight & balance, proportion systems (with evidence notes), responsive layout. |
 | 7 | `accessibility` | WCAG 2.2 AA/AAA in practice, inclusive design, cognitive accessibility, motion sensitivity, accessible color/type, testing checklist. |
 | 8 | `media-specs` | Digital (Apple HIG, Material 3, web breakpoints), social formats per platform (dated), print (bleed, CMYK, resolution, ISO/US paper, magazine production), out-of-home (billboard sizes, viewing distance → letter height, word count, contrast), packaging basics. |
+| 9 | `ai-slop` | *(added in v1.0.5)* The anti-default check: why generated work converges, a cited catalog of AI tells across UI, imagery, logos, video, and copy with what to do instead, tool default fingerprints, verified brand backlash cases, audience-perception and disclosure evidence, and slop tests for sign-off and critique. |
 
 ### Creative Director (orchestrator skill, auto-triggers on design requests)
 

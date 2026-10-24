@@ -15,7 +15,7 @@ design systems, brands, magazines, social posts, billboards, and packaging.
 |---|---|
 | **Creative director** | Auto-triggers on design requests. Diagnoses the brief, picks a direction, loads the right knowledge, dispatches specialists in parallel, and signs off with accessibility, spec, evidence, and ethics checks. |
 | **Workflows** | `brief` (vague request → creative brief), `critique` (severity-ranked, evidence-based review). |
-| **Knowledge skills** | `typography`, `color`, `layout-composition`, `accessibility`, `media-specs`, `visual-styles` (31 styles with token recipes), `design-history` (~60 masters, movements, studios), `cognitive-psychology` (evidence-graded biases, laws of UX, dark-pattern ethics). Every claim is cited. Volatile specs carry the month they were verified. |
+| **Knowledge skills** | `typography`, `color`, `layout-composition`, `accessibility`, `media-specs`, `visual-styles` (31 styles with token recipes), `design-history` (~60 masters, movements, studios), `cognitive-psychology` (evidence-graded biases, laws of UX, dark-pattern ethics), `ai-slop` (the tells that make work read as AI-generated or templated, and what to do instead, checked at every sign-off). Every claim is cited. Volatile specs carry the month they were verified. |
 | **Specialists** | `design-critic`, `typographer`, `color-specialist`, `accessibility-specialist`, `art-director`, `social-media-designer`, `print-ooh-designer`, `ui-designer`, `editorial-designer`. |
 
 ## Examples

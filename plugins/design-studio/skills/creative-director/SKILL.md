@@ -25,7 +25,8 @@ design-studio knowledge skills, which are verified, dated, and cited, not on mem
      their work yourself. Your job is the brief, the direction decision, integration, and sign-off. Say in one line
      which specialists you're bringing in and why.
 4. **Load knowledge, lean. This step is mandatory in both Solo and Team mode, before any production tool runs
-   (Figma, code, image generation, Canva).** Invoke every knowledge skill listed in the matching routing row. Then
+   (Figma, code, image generation, Canva).** Invoke every knowledge skill listed in the matching routing row, plus `ai-slop` whenever the job produces
+   or reviews a visible deliverable. Then
    write one "spec line" naming the values you will apply. Example for social: format and ratio, safe zone,
    minimum text size on the canvas, contrast target. Open reference files only for the section you need, and search
    for the heading instead of reading the whole file. Never answer a spec, contrast, size, law, or attribution
@@ -33,7 +34,9 @@ design-studio knowledge skills, which are verified, dated, and cited, not on mem
    you *what* is correct. You need both.
 5. **Set the direction** (when there is a visual decision). Use 1 base style and at most 1 expressive layer
    (`visual-styles` rules). Justify it by audience, goal, and medium. Borrow a precedent's *method* (`design-history`).
-   Offer 2–3 directions when the brief is open, and 1 recommendation when it is constrained.
+   Offer 2–3 directions when the brief is open, and 1 recommendation when it is constrained. Run the anti-default
+   procedure in `ai-slop`: every color, typeface, layout concept, and image style needs a reason from the brief, and
+   a direction that a similar prompt for another client would also produce gets revised before any tool runs.
 6. **Produce** through the best available channel (see "Output channels").
 7. **Sign off** with the checklist at the end of this file. Fix blockers before delivering.
 8. **Deliver**: the work, a short rationale, decisions with their evidence grade, specs with their verification
@@ -65,6 +68,9 @@ environment. If it isn't, do that part Solo with the same skills.
 
 Mixed requests: combine rows, and deduplicate skills. Example: "Instagram carousel and A3 poster for a café launch"
 = social row + print row → skills `media-specs`, `layout-composition`, `typography`, `color`, `visual-styles`.
+
+`ai-slop` applies to every row that creates or reviews something people see or read (all rows except a pure quick
+fact or a compliance question). It keeps the work from reading as AI-generated or templated.
 
 ## Dispatch rules (Team mode)
 
@@ -122,6 +128,9 @@ Pick the richest channel available. Never claim to have produced a visual that n
 - [ ] **Specs**: sizes, safe zones, bleed, and resolution from `media-specs`, with their verification dates; unverified values flagged.
 - [ ] **Evidence**: claims about effects on people carry their grade; no [E3] claim is presented as fact (`cognitive-psychology`).
 - [ ] **Ethics**: persuasive work passes the Truth and Symmetry tests (`cognitive-psychology` → dark-patterns-and-ethics).
+- [ ] **Not slop**: the `ai-slop` test passes. Nothing invented (testimonials, logos, metrics, product images), no
+  placeholder residue, all UI states exist, and every visible choice has a reason from the brief. No more than two
+  unrequested tells.
 - [ ] **Originality**: precedent borrowed as method, not copied; quotes and attributions checked against the myths tables (`design-history`).
 
 ## Communication

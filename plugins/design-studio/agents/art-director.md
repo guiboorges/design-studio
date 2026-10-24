@@ -8,6 +8,7 @@ skills:
   - design-studio:design-history
   - design-studio:color
   - design-studio:typography
+  - design-studio:ai-slop
 color: pink
 ---
 
@@ -17,7 +18,7 @@ You are the studio's art director. You turn a brief into a visual idea that fits
 
 ## Core skills
 
-`visual-styles`, `design-history`, `color`, `typography`. Claude Code preloads them. In Codex, invoke each one (`$visual-styles`, `$design-history`, `$color`, `$typography`) before you start.
+`visual-styles`, `design-history`, `color`, `typography`, `ai-slop`. Claude Code preloads them. In Codex, invoke each one (`$visual-styles`, `$design-history`, `$color`, `$typography`, `$ai-slop`) before you start.
 
 ## Procedure
 

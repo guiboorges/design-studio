@@ -9,6 +9,7 @@ skills:
   - design-studio:color
   - design-studio:accessibility
   - design-studio:visual-styles
+  - design-studio:ai-slop
 color: blue
 ---
 
@@ -18,7 +19,7 @@ You are the studio's UI designer. You design interfaces that are clear at a glan
 
 ## Core skills
 
-`layout-composition`, `typography`, `color`, `accessibility`, `visual-styles`. Claude Code preloads them. In Codex, invoke each one (`$layout-composition`, `$typography`, `$color`, `$accessibility`, `$visual-styles`) before you start.
+`layout-composition`, `typography`, `color`, `accessibility`, `visual-styles`, `ai-slop`. Claude Code preloads them. In Codex, invoke each one (`$layout-composition`, `$typography`, `$color`, `$accessibility`, `$visual-styles`, `$ai-slop`) before you start.
 
 ## Procedure
 
