@@ -47,6 +47,8 @@ Each stage ends with something the user can look at and approve. Never spend on 
 - **Spacing:** space and radius values.
 - **On every variable:** set explicit scopes (fills, text, strokes, gap, radius) and WEB code syntax `var(--name-role)` [1].
 
+**Phone frames:** draw phone screens at 402×874 (iPhone 17/18 Pro). Keep type sizes and spacing in a variable collection with Desktop and Phone modes (values from `layout-composition` → `mobile-proportions.md` §3), and pin Phone on the phone frames. Never scale a desktop frame down. Check every phone frame against the phone budget (§2) before the screenshot review.
+
 **Pinned modes:** a frame can force a mode with `setExplicitVariableModeForCollection`. Use it for:
 - cards with photos (pin Dark, so text over the image keeps its contrast in both themes);
 - a contrasting sidebar (pin Light inside a dark screen).

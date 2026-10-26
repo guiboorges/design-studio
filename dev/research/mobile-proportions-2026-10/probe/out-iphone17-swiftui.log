@@ -1,0 +1,31 @@
+PROBE SCREEN bounds=(402.0, 874.0) scale=3.0 nativeScale=3.0 native=(1206.0, 2622.0) model=iPhone sys=27.0 mode=swiftui
+PROBE SWIFTUI picker.segmented w=370.0 h=31.0
+PROBE SWIFTUI toggle w=370.0 h=28.0
+PROBE SWIFTUI textfield.roundedBorder w=370.0 h=34.0
+PROBE SWIFTUI borderedProminent.flexible.extraLarge w=370.0 h=50.33333333333333
+PROBE SWIFTUI glass.extraLarge w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI glassProminent.extraLarge w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI bordered.extraLarge w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI borderedProminent.extraLarge w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI borderedProminent.flexible.large w=370.0 h=50.33333333333333
+PROBE SWIFTUI glass.large w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI glassProminent.large w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI bordered.large w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI borderedProminent.large w=108.66666666666666 h=50.33333333333333
+PROBE SWIFTUI borderedProminent.flexible.regular w=370.0 h=34.33333333333333
+PROBE SWIFTUI glass.regular w=92.66666666666666 h=34.33333333333333
+PROBE SWIFTUI glassProminent.regular w=92.66666666666666 h=34.33333333333333
+PROBE SWIFTUI bordered.regular w=92.66666666666666 h=34.33333333333333
+PROBE SWIFTUI borderedProminent.regular w=92.66666666666666 h=34.33333333333333
+PROBE SWIFTUI borderedProminent.flexible.small w=370.0 h=28.0
+PROBE SWIFTUI glass.small w=82.0 h=28.0
+PROBE SWIFTUI glassProminent.small w=82.0 h=28.0
+PROBE SWIFTUI bordered.small w=82.0 h=28.0
+PROBE SWIFTUI borderedProminent.small w=82.0 h=28.0
+PROBE SWIFTUI borderedProminent.flexible.mini w=370.0 h=28.0
+PROBE SWIFTUI glass.mini w=82.0 h=28.0
+PROBE SWIFTUI glassProminent.mini w=82.0 h=28.0
+PROBE SWIFTUI bordered.mini w=82.0 h=28.0
+PROBE SWIFTUI borderedProminent.mini w=82.0 h=28.0
+PROBE DONE
+local.probe.layout: 51105

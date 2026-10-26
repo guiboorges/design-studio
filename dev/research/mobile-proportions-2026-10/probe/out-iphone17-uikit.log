@@ -1,0 +1,117 @@
+PROBE SCREEN bounds=(402.0, 874.0) scale=3.0 nativeScale=3.0 native=(1206.0, 2622.0) model=iPhone sys=27.0 mode=uikit
+PROBE UIKIT table.layoutMargins=UIEdgeInsets(top: 168.0, left: 20.0, bottom: 83.0, right: 20.0) directional=NSDirectionalEdgeInsets(top: 168.0, leading: 20.0, bottom: 83.0, trailing: 20.0) sysMin=NSDirectionalEdgeInsets(top: 0.0, leading: 16.0, bottom: 0.0, trailing: 16.0) safe=UIEdgeInsets(top: 168.0, left: 0.0, bottom: 83.0, right: 0.0)
+PROBE UIKIT table.readableWidth=362.0 readableX=20.0 viewW=402.0
+PROBE UIKIT tableView.rowHeight=-1.0 estimated=-1.0 sectionHeaderTopPadding=-1.0
+PROBE UIKIT cell.default.fittingHeight=53.0
+PROBE UIKIT cell.subtitle.fittingHeight=69.33333333333333
+PROBE UIKIT navBar.frame=(0.0, 62.0, 402.0, 106.0) (large title expanded)
+PROBE UIKIT tabBar.frame=(0.0, 791.0, 402.0, 83.0) screenH=874.0
+PROBE UIKIT window.safe=UIEdgeInsets(top: 62.0, left: 0.0, bottom: 34.0, right: 0.0)
+PROBE UIKIT row0 frame=(0.0, 38.0, 362.0, 53.0) contentX=0.0 sepInset=UIEdgeInsets(top: 0.0, left: 55.99999999999999, bottom: 0.0, right: 16.0)
+PROBE UIKIT row1 frame=(0.0, 91.0, 362.0, 69.33333587646484) contentX=0.0 sepInset=UIEdgeInsets(top: 0.0, left: 16.0, bottom: 0.0, right: 16.0)
+PROBE UIKIT row2 frame=(0.0, 160.33333587646484, 362.0, 53.0) contentX=0.0 sepInset=UIEdgeInsets(top: 0.0, left: 16.0, bottom: 0.0, right: 16.0)
+PROBE UIKIT section0 header rect=(0.0, 0.0, 402.0, 38.0) section1 header rect=(0.0, 230.66666730244958, 402.0, 38.0) footer0=(0.0, 213.3333339691162, 402.0, 17.333333333333332)
+PROBE UIKIT UIButton.filled.mini w=82.0 h=28.0
+PROBE UIKIT UIButton.filled.small w=82.0 h=28.0
+PROBE UIKIT UIButton.filled.medium w=92.66666666666667 h=34.333333333333336
+PROBE UIKIT UIButton.filled.large w=108.66666666666667 h=50.333333333333336
+PROBE UIKIT UIButton.tinted.mini w=82.0 h=28.0
+PROBE UIKIT UIButton.tinted.small w=82.0 h=28.0
+PROBE UIKIT UIButton.tinted.medium w=92.66666666666667 h=34.333333333333336
+PROBE UIKIT UIButton.tinted.large w=108.66666666666667 h=50.333333333333336
+PROBE UIKIT UIButton.gray.mini w=82.0 h=28.0
+PROBE UIKIT UIButton.gray.small w=82.0 h=28.0
+PROBE UIKIT UIButton.gray.medium w=92.66666666666667 h=34.333333333333336
+PROBE UIKIT UIButton.gray.large w=108.66666666666667 h=50.333333333333336
+PROBE UIKIT UIButton.prominentGlass.mini w=82.0 h=28.0
+PROBE UIKIT UIButton.prominentGlass.small w=82.0 h=28.0
+PROBE UIKIT UIButton.prominentGlass.medium w=92.66666666666667 h=34.333333333333336
+PROBE UIKIT UIButton.prominentGlass.large w=108.66666666666667 h=50.333333333333336
+PROBE UIKIT UIButton.glass.mini w=82.0 h=28.0
+PROBE UIKIT UIButton.glass.small w=82.0 h=28.0
+PROBE UIKIT UIButton.glass.medium w=92.66666666666667 h=34.333333333333336
+PROBE UIKIT UIButton.glass.large w=108.66666666666667 h=50.333333333333336
+PROBE UIKIT UISwitch=(61.0, 28.0) UISegmented=(64.0, 31.0) UISlider=(-1.0, 34.0)
+PROBE UIKIT UITextField.roundedRect=(37.0, 34.0)
+PROBE UIKIT UISearchBar=(400.0, 64.0)
+PROBE TYPE largeTitle size=34.0 lineHeight=40.57421875 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE title1 size=28.0 lineHeight=33.4140625 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE title2 size=22.0 lineHeight=26.25390625 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE title3 size=20.0 lineHeight=23.8671875 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE headline size=17.0 lineHeight=20.287109375 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16386;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = "0.300000011920929";
+}
+PROBE TYPE body size=17.0 lineHeight=20.287109375 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE callout size=16.0 lineHeight=19.09375 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE subheadline size=15.0 lineHeight=17.900390625 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE footnote size=13.0 lineHeight=15.513671875 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE caption1 size=12.0 lineHeight=14.3203125 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE TYPE caption2 size=11.0 lineHeight=13.126953125 weight={
+    NSCTFontProportionTrait = 0;
+    NSCTFontSlantTrait = 0;
+    NSCTFontSymbolicTrait = 16384;
+    NSCTFontUIFontDesignTrait = NSCTFontUIFontDesignDefault;
+    NSCTFontWeightTrait = 0;
+}
+PROBE UIKIT plainVC rootView.layoutMargins=UIEdgeInsets(top: 116.0, left: 16.0, bottom: 83.0, right: 16.0) sysMin=NSDirectionalEdgeInsets(top: 0.0, leading: 16.0, bottom: 0.0, trailing: 16.0) readable=370.0
+PROBE UIKIT navBar.frame(collapsed)=(0.0, 62.0, 402.0, 54.0) safeTop=168.0
+PROBE DONE
+local.probe.layout: 50731

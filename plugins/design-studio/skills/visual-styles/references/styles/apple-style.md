@@ -54,7 +54,7 @@
 | Borders | Rarely used. Separation comes from fills and material, not strokes. | |
 | Shadows / elevation | Marketing: almost none; depth comes from product renders. Platform: elevation is expressed by material (glass) plus scroll-edge effects [6]. | |
 | Material | Regular glass for bars, sidebars, alerts, popovers. Clear glass only over photos and video. If the content under clear glass is bright, add a **35% opacity dark dimming layer** [6]. Web approximation: `background: rgb(255 255 255 / 0.6); backdrop-filter: blur(20px) saturate(180%);` with an opaque fallback. | Honor Reduce Transparency and Increase Contrast. Their effect on Liquid Glass is system-defined [6]. |
-| Spacing / grid | iOS: respect safe areas, system margins, and size classes [17]. Marketing: section padding 80–160px; bento gap 20px [15]. | |
+| Spacing / grid | iOS: respect safe areas, system margins, and size classes [17]. Marketing: section padding 80–160px; bento gap 20px [15]. | Phone proportions (measured 2026-10): margins 16/20 pt, buttons 34/50 pt; apple.com phone tier 48/40/32/28/24/21/19/17/14/12 px with 36 px pill CTAs. See `layout-composition` → `mobile-proportions.md`. |
 | Imagery & iconography | Product renders on seamless backgrounds; SF Symbols, weight-matched to adjacent text [16]. | |
 | Motion | apple.com: `cubic-bezier(0.4, 0, 0.6, 1)` at 240–320ms for UI reveals [14]. Platform: system springs; Liquid Glass reacts to touch and motion with specular highlights [5]. | Always provide reduced-motion paths. |
 | Texture / effects | None besides glass. No noise, no gradients on UI chrome. | |

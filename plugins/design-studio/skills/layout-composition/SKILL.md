@@ -1,6 +1,6 @@
 ---
 name: layout-composition
-description: Use whenever a task involves laying out or critiquing a page, screen, poster, post, slide, or billboard: grids, hierarchy, spacing, alignment, balance, whitespace, or responsive behavior. Contains: grid types with a decision table and a 10-step method to build a grid from content, canons of page construction, magazine grids, 8-pt and 4-pt systems, spacing tokens, CSS Grid and subgrid recipes, the hierarchy procedure and levers, visual weight and balance, whitespace research (corrected), density for expert vs. consumer UI, golden ratio and rule of thirds evidence-graded, single-glance composition, and responsive layout (content-first breakpoints, container queries, fluid spacing, RTL, safe areas, dvh, foldables, reading order, responsive images, 320px reflow, QA checklist).
+description: Use whenever a task involves laying out or critiquing a page, screen, poster, post, slide, or billboard, and for every phone or mobile version of an app or site: grids, hierarchy, spacing, alignment, balance, whitespace, or responsive behavior. Contains: grid types with a decision table and a 10-step method to build a grid from content, canons of page construction, magazine grids, 8-pt and 4-pt systems, spacing tokens, CSS Grid and subgrid recipes, the hierarchy procedure and levers, visual weight and balance, whitespace research (corrected), density for expert vs. consumer UI, golden ratio and rule of thirds evidence-graded, single-glance composition, mobile proportions (a phone budget for type, buttons, heroes, chrome, rows, and margins, measured on iOS and apple.com; desktop-to-phone factors), and responsive layout (content-first breakpoints, container queries, fluid spacing, RTL, safe areas, dvh, foldables, reading order, responsive images, 320px reflow, QA checklist).
 user-invocable: false
 ---
 
@@ -30,7 +30,12 @@ Platform sizes and safe zones are in `media-specs`.
    breaks. Push the rest into container queries and intrinsic sizing. Start at 320 CSS px (WCAG reflow).
 7. **DOM order = reading order = focus order** at every breakpoint. Use CSS for visual reordering only when the
    reading sequence doesn't change.
-8. **Proportion "laws" are heuristics.** The golden ratio and the rule of thirds are [E3] as rules of beauty.
+8. **Phones are re-proportioned, never shrunk.** Big type shrinks hard (desktop 64–88 px → 40 on a phone), reading
+   text stays at 16–17, controls stay about the same size, spacing shrinks to about ×0.75, and radii don't change. On a
+   phone: the largest app title is 34 pt, a web hero is 32–48 px, a primary button is 50 pt (iOS) or 36–44 px (web)
+   with a body-size label, there are 1–2 prominent buttons per view, and 3–4 type sizes. Check every phone screen
+   against the budget in `mobile-proportions.md` §2 before you show it.
+9. **Proportion "laws" are heuristics.** The golden ratio and the rule of thirds are [E3] as rules of beauty.
    Use them as construction tools if they help, never as evidence.
 
 ## Choose the grid
@@ -59,6 +64,9 @@ Most products combine grids. A typical site has a 12-column page grid, a manuscr
 | Hierarchy steps | ≤ 3 type sizes per view, ≤ 2 large elements (NN/g) [E2] | `hierarchy-balance-whitespace.md` §1 |
 | Headline vs. body | 2–4× on screens, 4–10× on posters | `hierarchy-balance-whitespace.md` §1.2 |
 | Reading-text inset | ≥ 16px on phones, even in dense apps | `hierarchy-balance-whitespace.md` §5.2 |
+| Phone budget (iOS, measured 2026-10) | Frame 402×874; margin 16 (20 from 420 wide); Large Title 34 / body 17; buttons 34 or 50 (primary), capsule; rows 53/69; content ~71% of the height | `mobile-proportions.md` §2, §4 |
+| Phone web (apple.com + 4 sites, 2026-10) | Hero 32–48 (median 40); CTA 36–44, never full-bleed; margin 16–24; 3 sizes in the first view; hero text ≤ ~30% of the viewport | `mobile-proportions.md` §5 |
+| Desktop → phone factors (Apple CSS) | ≥64 px ×0.5; 48–56 ×0.57; 24–40 ×0.75; 19–21 ×0.8; ≤17 ×1.0; spacing ×0.75; card padding ×0.7; radius ×1 | `mobile-proportions.md` §3 |
 | Window size classes (Android, verified 2026-10) | Compact < 600, medium 600–839, expanded 840–1199, large 1200–1599, extra-large ≥ 1600 dp | `responsive-layout.md` §2.3 |
 | CSS support (2026-10) | Subgrid, container queries, svh/lvh/dvh in all major browsers; `reading-flow` Chromium only | `responsive-layout.md`, `grid-systems.md` |
 
@@ -74,6 +82,9 @@ Most products combine grids. A typical site has a 12-column page grid, a manuscr
 - **Go responsive** (`responsive-layout.md` §2): narrowest first → widen until the content breaks → breakpoint
   there → container queries for components → fluid spacing and type with `clamp()` (with a `rem` term for zoom)
   → run the QA checklist (§13).
+- **Proportion a phone screen** (`mobile-proportions.md` §8): platform column → frame and margins → phone type
+  ramp → chrome (content ≥ 65–70%) → one primary action → rows and groups → translate desktop values → check at
+  375×667, 440×956, and 200% text, and measure the largest text and the primary button.
 - **CSS recipes** (`grid-systems.md` §8): page container with full-bleed breakouts, 12-column spans, named-area
   app shell, auto-fit card grid with no media queries, subgrid-aligned cards, baseline rhythm.
 
@@ -94,4 +105,5 @@ Most products combine grids. A typical site has a 12-column page grid, a manuscr
 |---|---|
 | `references/grid-systems.md` | Choosing or building a grid; grid anatomy; canons of page construction; magazine grids; 8-pt/4-pt systems; spacing tokens; CSS Grid and subgrid code; grids for social, posters, billboards. |
 | `references/hierarchy-balance-whitespace.md` | Setting or critiquing hierarchy, visual weight, balance, focal points, whitespace, density; proportion systems; single-glance composition; the composition critique checklist. |
+| `references/mobile-proportions.md` | Any phone screen (native app, phone web, PWA, mobile version of a dashboard); sizing buttons, heroes, titles, rows, chrome, and margins on a phone; turning a desktop design into a phone design; critiquing oversized mobile UI. |
 | `references/responsive-layout.md` | Breakpoints, container queries, fluid spacing, RTL and logical properties, safe areas and viewport units, foldables, reading order, responsive images, tables on small screens, navigation by size, 320px reflow, responsive QA. |

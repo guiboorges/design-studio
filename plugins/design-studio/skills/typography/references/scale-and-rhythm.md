@@ -66,7 +66,7 @@ Read the table this way: with a 1.5 ratio, step −2 is 7px, which is unusable. 
 **Limit.**
 - A ratio is a starting point, not a law. Round to the grid and adjust steps that look wrong.
 - No ratio has a measured effect on comprehension or preference. Musical names are mnemonic only; claims that "harmonic" or golden-ratio scales are perceived as more pleasing are unsupported **[E3]**.
-- A single ratio across all viewports either makes mobile headings too large or desktop headings too timid. Use two ratios or fluid type.
+- A single ratio across all viewports either makes mobile headings too large or desktop headings too timid. Use two ratios or fluid type. Apple's own CSS halves display type on phones (80 → 40) while body stays at 17. The per-size factors are in `layout-composition` → `mobile-proportions.md` §3.
 
 ---
 

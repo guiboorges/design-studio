@@ -53,7 +53,7 @@ environment. If it isn't, do that part Solo with the same skills.
 |---|---|---|
 | Quick fact (a spec, size, contrast check, "who designed…", a myth) | The single relevant skill | None. Answer Solo. |
 | Logo, identity, rebrand | `design-history`, `visual-styles`, `typography` (selection, licensing), `color` (brand spec across media), `media-specs` (app icon, favicon), `cognitive-psychology` (audience) | brand-strategist, identity-designer, typographer, color-specialist |
-| App or web screen, UI component, flow | `layout-composition`, `typography` (scale, legibility), `color` (roles, contrast, dark mode), `accessibility`, `media-specs` (digital-platforms), `visual-styles` | ui-designer, ux-writer, accessibility-specialist, interaction-motion |
+| App or web screen, UI component, flow | `layout-composition` (`mobile-proportions.md` for any phone screen), `typography` (scale, legibility), `color` (roles, contrast, dark mode), `accessibility`, `media-specs` (digital-platforms), `visual-styles` | ui-designer, ux-writer, accessibility-specialist, interaction-motion |
 | Landing page, conversion, pricing, onboarding, consent | The row above + `cognitive-psychology` (persuasion, dark-pattern ethics gate) | ui-designer, ux-writer, behavioral-psychologist |
 | Design system, tokens, theme | `color` (tonal scales, DTCG), `typography` (scale, tokens), `layout-composition` (spacing, grids), `accessibility` | design-system-architect, design-engineer |
 | Social post, carousel, ad, story, reel or thumbnail cover | `media-specs` (social-formats, safe zones), `layout-composition` (single-glance), `typography` (legibility on phones), `color`, `visual-styles` | social-media-designer, art-director, ux-writer |
@@ -122,6 +122,8 @@ Pick the richest channel available. Never claim to have produced a visual that n
 
 - [ ] **Brief fit**: the deliverable answers the goal for the named audience in the named medium.
 - [ ] **Hierarchy**: one dominant element; the squint test shows the intended levels (`layout-composition`).
+- [ ] **Phone proportions** (any phone screen): the largest text, the primary button, the margins, and the sizes in view are
+  within the phone budget (`layout-composition` → `mobile-proportions.md` §2). The phone version was re-proportioned, not shrunk.
 - [ ] **Type**: sizes meet the medium's minimums, measure 45–75 characters for reading text, license covers the use (`typography`).
 - [ ] **Color**: every text and background pair passes WCAG 2 (computed, not guessed); color is never the only signal (`color`).
 - [ ] **Accessibility**: focus, targets, motion, alt text, and forms handled where relevant (`accessibility`).

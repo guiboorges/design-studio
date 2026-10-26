@@ -162,7 +162,7 @@ macOS does not support Dynamic Type [1].
 - Size classes: horizontal and vertical are each compact or regular. Decide layout by size class, not by device or orientation [4].
 - macOS: keep controls and critical information away from the window bottom; avoid the camera housing at the top edge [4].
 - tvOS: inset primary content 60 pt from top and bottom and 80 pt from the sides [4]. The tvOS tab bar is 68 pt tall, with its top edge 46 pt from the screen top [7].
-- **Standard iOS bar heights are not published in the current HIG** (checked Layout and Tab bars pages, 2026-10). Figures like "44 pt nav bar, 49 pt tab bar" come from older versions and from UIKit behavior; with Liquid Glass (2025) bars float and vary. Read them from the running system (safe-area insets) rather than hard-coding.
+- **Standard iOS bar heights are not published in the current HIG** (checked Layout and Tab bars pages, 2026-10). Figures like "44 pt nav bar, 49 pt tab bar" come from older versions and from UIKit behavior; with Liquid Glass (2025) bars float and vary. Read them from the running system (safe-area insets) rather than hard-coding. Values measured on the iOS 27.0 simulator (2026-10: large-title bar 106 pt, tab bar 83 pt, rows 53/69 pt, buttons 34/50 pt, margins 16/20 pt) are in `layout-composition` → `mobile-proportions.md` §2 and §4. Use them for proportioning mockups, not as hard-coded values.
 
 ### 3.8 App icons: layered Liquid Glass format [6] (verified 2026-10)
 

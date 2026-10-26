@@ -221,6 +221,7 @@ Detailed letter-height tables and viewing-distance formulas live in `media-specs
 - [ ] Line heights scale with text (sp on Android) [5].
 - [ ] Bold Text and Increase Contrast settings honored [3].
 - [ ] No text below 11pt / 11sp [3][6].
+- [ ] Largest text on a normal screen ≤ 34 pt (the iOS Large Title); 3–4 sizes in view (`layout-composition` → `mobile-proportions.md` §2).
 
 ### 9.3 Print editorial
 

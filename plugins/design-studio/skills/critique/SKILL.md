@@ -31,7 +31,7 @@ can; when you can't, label it "estimated".
 |---|---|---|---|
 | 1 | Message and goal | One message? Does the call to action match the goal? | `creative-director` sign-off, the brief |
 | 2 | Hierarchy and composition | One dominant element; clear steps; squint test; focal path; balance | `layout-composition` (hierarchy) |
-| 3 | Layout, grid, spacing | Alignment to columns and baselines; inside < between spacing; consistent scale | `layout-composition` (grids) |
+| 3 | Layout, grid, spacing | Alignment to columns and baselines; inside < between spacing; consistent scale. On phones: largest text, button height, prominent-button count, margins, and sizes in view against the phone budget | `layout-composition` (grids; `mobile-proportions.md` §2 and §7 for phones) |
 | 4 | Typography | Choice fits voice and medium; sizes, measure, leading, tracking; hierarchy levels; licensing risk | `typography` |
 | 5 | Color and contrast | Contrast computed per text and background pair; color not the only signal; palette relationships; dark mode | `color` |
 | 6 | Accessibility | Focus, targets, motion, alt text, forms, reading order (for UI); WCAG 2.2 AA | `accessibility` |
