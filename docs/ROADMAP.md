@@ -64,6 +64,8 @@ Install:
 | 7 | `accessibility` | WCAG 2.2 AA/AAA in practice, inclusive design, cognitive accessibility, motion sensitivity, accessible color/type, testing checklist. |
 | 8 | `media-specs` | Digital (Apple HIG, Material 3, web breakpoints), social formats per platform (dated), print (bleed, CMYK, resolution, ISO/US paper, magazine production), out-of-home (billboard sizes, viewing distance → letter height, word count, contrast), packaging basics. |
 | 9 | `ai-slop` | *(added in v1.0.5)* The anti-default check: why generated work converges, a cited catalog of AI tells across UI, imagery, logos, video, and copy with what to do instead, tool default fingerprints, verified brand backlash cases, audience-perception and disclosure evidence, and slop tests for sign-off and critique. |
+| 10 | `expressive-web` | *(added in v1.0.7)* Award-level websites: a first-hand field study of 13 Awwwards Sites of the Day (Oct 2026: stacks, house easings, type, color, chrome), the five ingredients that make a site feel alive, a concept → mechanic method and table, motion tokens, ambition tiers, a 28-pattern catalog with code, cost, and reduced-motion and phone fallbacks, the verified 2026 stack (GSAP 3.15 incl. SplitText, Lenis 1.3, Three.js r186, View Transitions, scroll-driven CSS), performance budgets, and a motion QA method. Covers part of the planned Phase 2 `motion` skill (expressive web); UI micro-motion fundamentals remain open. |
+| 11 | `brand-identity` | *(added in v1.0.7)* Brand strategy and concept (discovery question bank with defaults, chat workshop exercises, positioning methods, strategy routes, the central concept and its tests, naming screens, a brand core template), logo design (typology, concept-to-mark procedure, 13 cases with the designers' rationale, backlash cases, construction and optical craft, tests and similarity check, logo motion, presenting the "why"), and identity systems and motion (derivation from the logo, 14 system cases, flexible identities, motion and sonic identity, website and social coherence, guidelines, the throughline test). Delivers Phase 3's `brand-identity`, with the `brand-strategist` and `identity-designer` agents and the `/design-studio:studio` workflow (the planned `/design-studio:identity`). |
 
 ### Creative Director (orchestrator skill, auto-triggers on design requests)
 
@@ -81,6 +83,7 @@ direction, integration, and sign-off. Measured on Opus for every agent: one wave
 
 - `/design-studio:brief` — structured creative brief from a vague request.
 - `/design-studio:critique` — critique of any design against principles, audience, and accessibility.
+- `/design-studio:studio` — *(added in v1.0.7)* guided brand creation, stage by stage with the client's choice at each gate: conversation, strategy, concept, visual territory, logo, system, applications (website, social), brand book. Every deliverable traces to one brand core.
 
 ---
 

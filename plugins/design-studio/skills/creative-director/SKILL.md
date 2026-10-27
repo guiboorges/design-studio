@@ -15,7 +15,9 @@ design-studio knowledge skills, which are verified, dated, and cited, not on mem
 2. **Check the brief.** Minimum to proceed: *what* (deliverable and medium), *for whom* (audience), *to achieve what*
    (goal), *constraints* (brand assets, specs, deadline, accessibility level, tools). If something is missing and it
    would change the answer, ask at most 3 short questions in one message. Otherwise state your assumptions in one line
-   and proceed. For a large or vague project, run the `brief` skill first.
+   and proceed. For a large or vague project, run the `brief` skill first. When the user wants a brand, company, launch, or
+   rebrand built end to end (logo, site, social), wants to be guided, or doesn't know where to start, run the `studio`
+   skill: a stage-by-stage session with alternatives, reasons, and a brand core that every deliverable traces to.
 3. **Choose the mode.**
    - **Solo**: a question, a quick fact, a single small deliverable in one discipline, or a fix to existing work.
      You answer in the main thread using the skills.
@@ -37,7 +39,9 @@ design-studio knowledge skills, which are verified, dated, and cited, not on mem
    Offer 2–3 directions when the brief is open, and 1 recommendation when it is constrained. Run the anti-default
    procedure in `ai-slop`: every color, typeface, layout concept, and image style needs a reason from the brief, and
    a direction that a similar prompt for another client would also produce gets revised before any tool runs.
-6. **Produce** through the best available channel (see "Output channels").
+6. **Produce** through the best available channel (see "Output channels" and `references/tool-map.md`). End with
+   something the user can **see** (a published page, a render, a recording, a Figma screenshot), not only a text
+   proposal. Get an OK before spending paid credits; installed local apps (Blender, ffmpeg) need no permission.
 7. **Sign off** with the checklist at the end of this file. Fix blockers before delivering.
 8. **Deliver**: the work, a short rationale, decisions with their evidence grade, specs with their verification
    dates, open risks, and the next step.
@@ -52,9 +56,11 @@ environment. If it isn't, do that part Solo with the same skills.
 | Request family | Knowledge skills (open these sections) | Specialists when installed |
 |---|---|---|
 | Quick fact (a spec, size, contrast check, "who designed…", a myth) | The single relevant skill | None. Answer Solo. |
-| Logo, identity, rebrand | `design-history`, `visual-styles`, `typography` (selection, licensing), `color` (brand spec across media), `media-specs` (app icon, favicon), `cognitive-psychology` (audience) | brand-strategist, identity-designer, typographer, color-specialist |
+| New brand or company end to end, "guide me", logo + site + social that must match | Run the `studio` skill (it routes each stage) | brand-strategist, identity-designer, art-director, ui-designer, social-media-designer |
+| Logo, identity, rebrand | `brand-identity`, `design-history`, `visual-styles`, `typography` (selection, licensing), `color` (brand spec across media), `media-specs` (app icon, favicon), `cognitive-psychology` (audience) | brand-strategist, identity-designer, typographer, color-specialist |
 | App or web screen, UI component, flow | `layout-composition` (`mobile-proportions.md` for any phone screen), `typography` (scale, legibility), `color` (roles, contrast, dark mode), `accessibility`, `media-specs` (digital-platforms), `visual-styles` | ui-designer, ux-writer, accessibility-specialist, interaction-motion |
 | Landing page, conversion, pricing, onboarding, consent | The row above + `cognitive-psychology` (persuasion, dark-pattern ethics gate) | ui-designer, ux-writer, behavioral-psychologist |
+| Expressive or award-level site: brand experience, portfolio, launch or campaign microsite, scroll storytelling, motion, WebGL, "Awwwards-level" | The landing-page row + `expressive-web` (concept → mechanic, motion tokens, patterns, build and QA) + `visual-styles` (`immersive-3d-webgl.md`, `kinetic-typography.md`) | ui-designer, art-director, accessibility-specialist, interaction-motion |
 | Design system, tokens, theme | `color` (tonal scales, DTCG), `typography` (scale, tokens), `layout-composition` (spacing, grids), `accessibility` | design-system-architect, design-engineer |
 | Social post, carousel, ad, story, reel or thumbnail cover | `media-specs` (social-formats, safe zones), `layout-composition` (single-glance), `typography` (legibility on phones), `color`, `visual-styles` | social-media-designer, art-director, ux-writer |
 | Print: poster, flyer, brochure, magazine, book, report | `media-specs` (print-production), `layout-composition` (grids, canons), `typography` (print sizes, pairing), `color` (print management) | editorial-designer, print-ooh-designer, typographer |
@@ -117,6 +123,11 @@ Pick the richest channel available. Never claim to have produced a visual that n
 | Figma | Figma tools are connected | Follow the Figma plugin's skills (they are mandatory before using its tools). Use variables for tokens. |
 | Image generation | An image tool is connected | Write prompts from the art direction (subject, composition, lens, light, palette, style references). Never imitate a living artist by name. |
 | Canva | Canva tools are connected | Use for social and print pieces from the spec. |
+| Asset generation (Higgsfield) | Higgsfield tools are connected | Images, video, 3D (GLB), and audio. Say what you'll generate and get an OK before spending credits. |
+| Local apps (Blender, ffmpeg) | Installed (`command -v blender ffmpeg`) | Blender headless for matching 3D renders, turntables, scrub sequences, and GLB; ffmpeg for web video. Recipes in `references/tool-map.md` §4. |
+| Browser | claude-in-chrome or `agent-browser` | Research references, then check the built work running (motion, phone width, reduced motion) before showing it. |
+
+Which tool for which stage (research, direction, assets, layout, motion, build, publishing, QA): `references/tool-map.md`.
 
 ## Sign-off checklist (run before delivering)
 
@@ -133,6 +144,9 @@ Pick the richest channel available. Never claim to have produced a visual that n
 - [ ] **Not slop**: the `ai-slop` test passes. Nothing invented (testimonials, logos, metrics, product images), no
   placeholder residue, all UI states exist, and every visible choice has a reason from the brief. No more than two
   unrequested tells.
+- [ ] **Alive** (expressive sites only): the `expressive-web` alive test passes: one concept-driven signature moment,
+  one house easing, content in the DOM, reduced-motion and phone paths built, budgets met, and the moment watched
+  running and its timing approved by the user.
 - [ ] **Originality**: precedent borrowed as method, not copied; quotes and attributions checked against the myths tables (`design-history`).
 
 ## Communication

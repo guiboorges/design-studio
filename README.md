@@ -14,9 +14,9 @@ design systems, brands, magazines, social posts, billboards, and packaging.
 | Part | Contents |
 |---|---|
 | **Creative director** | Auto-triggers on design requests. Diagnoses the brief, picks a direction, loads the right knowledge, dispatches specialists in parallel, and signs off with accessibility, spec, evidence, and ethics checks. |
-| **Workflows** | `brief` (vague request → creative brief), `critique` (severity-ranked, evidence-based review). |
-| **Knowledge skills** | `typography`, `color`, `layout-composition`, `accessibility`, `media-specs`, `visual-styles` (31 styles with token recipes), `design-history` (~60 masters, movements, studios), `cognitive-psychology` (evidence-graded biases, laws of UX, dark-pattern ethics), `ai-slop` (the tells that make work read as AI-generated or templated, and what to do instead, checked at every sign-off). Every claim is cited. Volatile specs carry the month they were verified. |
-| **Specialists** | `design-critic`, `typographer`, `color-specialist`, `accessibility-specialist`, `art-director`, `social-media-designer`, `print-ooh-designer`, `ui-designer`, `editorial-designer`. |
+| **Workflows** | `studio` (guided, stage-by-stage brand creation: strategy, concept, logo with its reason, system, site, and social posts that all express one idea), `brief` (vague request → creative brief), `critique` (severity-ranked, evidence-based review). |
+| **Knowledge skills** | `typography`, `color`, `layout-composition`, `accessibility`, `media-specs`, `visual-styles` (31 styles with token recipes), `design-history` (~60 masters, movements, studios), `cognitive-psychology` (evidence-graded biases, laws of UX, dark-pattern ethics), `ai-slop` (the tells that make work read as AI-generated or templated, and what to do instead, checked at every sign-off), `brand-identity` (strategy, concept, logo craft with documented cases, identity systems and motion), `expressive-web` (award-level sites: a field study of 13 Awwwards Sites of the Day, concept → mechanic, motion tokens, 28 patterns with code and accessible fallbacks, and how to check motion in a real browser). Every claim is cited. Volatile specs carry the month they were verified. |
+| **Specialists** | `design-critic`, `typographer`, `color-specialist`, `accessibility-specialist`, `art-director`, `social-media-designer`, `print-ooh-designer`, `ui-designer`, `editorial-designer`, `brand-strategist`, `identity-designer`. |
 
 ## Examples
 
@@ -118,7 +118,7 @@ To try it without installing, clone the repo and run `claude --plugin-dir ./plug
    ./design-studio/plugins/design-studio/codex/install.sh --agents-md
    ```
 
-   This copies the 9 agents to `~/.codex/agents/`. `--agents-md` adds a short routing note to `~/.codex/AGENTS.md`,
+   This copies the 11 agents to `~/.codex/agents/`. `--agents-md` adds a short routing note to `~/.codex/AGENTS.md`,
    which is Codex's equivalent of the Claude Code hook. Use `--project DIR` to install the agents for one project only.
    Use `--skills` to link the skills into `~/.agents/skills/` if you'd rather not install the plugin.
 

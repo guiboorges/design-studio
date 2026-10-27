@@ -37,7 +37,7 @@ can; when you can't, label it "estimated".
 | 6 | Accessibility | Focus, targets, motion, alt text, forms, reading order (for UI); WCAG 2.2 AA | `accessibility` |
 | 7 | Medium fit | Size, safe zones, bleed, resolution, letter height for distance, platform conventions | `media-specs` |
 | 8 | Audience and psychology | Fit to the audience; cognitive load; persuasion that passes the Truth and Symmetry tests | `cognitive-psychology` |
-| 9 | Style and originality | Coherent base plus at most one expressive layer; dated trend risk; precedent borrowed, not copied | `visual-styles`, `design-history` |
+| 9 | Style and originality | Coherent base plus at most one expressive layer; dated trend risk; precedent borrowed, not copied. For expressive sites, or a site that "feels flat": the five ingredients and the alive test | `visual-styles`, `design-history`, `expressive-web` |
 | 10 | Default vs. decision (AI slop) | Tell clusters from templates and generators; substitution test; invented proof; missing states; AI image, logo, and copy tells. Report clusters with their cause, never accuse the author | `ai-slop` |
 
 Skip dimensions that don't apply (e.g. focus states on a billboard) and say you skipped them.
