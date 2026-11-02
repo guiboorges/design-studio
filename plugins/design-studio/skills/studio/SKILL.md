@@ -98,6 +98,10 @@ open stage.
 ### Stage 4: Logo
 - Hand off to identity-designer (or do it Solo) with the core, the territory, and the method in `brand-identity` →
   `logo-design.md`: concept → visual metaphors → many thumbnails → 3 routes (literal, abstract, typographic) → refine.
+- Before drawing any route, read `logo-design.md` §2.2–2.4 in full (not by section headings) and run steps 2–6: facts
+  inventory, metaphor list, category audit, 20–40 black thumbnails, squint test. Show the thumbnail wall to the client
+  and let them mark favorites; build the 3 routes from those. A device lifted from the client's references is one
+  idea, not three routes.
 - Build the routes in Figma (load the Figma skills first). For each route: the mark, the wordmark lockup, the reason in
   two sentences, the master's method, and the test strip (16 px favicon, app icon, avatar circle, one color, on dark,
   on a photo).

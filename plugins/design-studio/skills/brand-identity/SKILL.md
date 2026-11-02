@@ -24,7 +24,8 @@ methods (Rand, Chermayeff & Geismar & Haviv, Bass, Glaser, Bierut, Scher, Hara) 
 3. **A symbol needs a reason.** Default to a wordmark. Add a symbol only when the typology procedure justifies it
    (`logo-design.md` §1.2): long name, icon-first product, sub-brands, or variety as the story.
 4. **Three routes that differ in kind:** literal, abstract, typographic. Forty variations of one idea count as one
-   (`logo-design.md` §2.4).
+   (`logo-design.md` §2.4). No route before steps 2–6 of `logo-design.md` §2.2 are done and the thumbnail wall is
+   shown; read §2.2–2.4 in full before starting.
 5. **Smallest size and one color first.** Judge every route at 16 px and in solid black before color. Present every
    route with its test strip (`logo-design.md` §5.6, §6.1).
 6. **The system derives from the logo's construction.** Color, grid, graphic device, and above all motion come from
